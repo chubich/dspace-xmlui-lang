@@ -7,6 +7,7 @@
 
     http://www.dspace.org/license/
 
+
 -->
 <catalogue xml:lang="es" xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
 
@@ -25,7 +26,7 @@
 
 	<!-- General keys -->
 <message key="xmlui.general.dspace_home">Главная</message>
-<message key="xmlui.general.search">Búsquedas</message>
+<message key="xmlui.general.search">Поиск</message>
 <message key="xmlui.general.go">Перейти</message>
 <message key="xmlui.general.go_home">На главную страницу DSpace</message>
 <message key="xmlui.general.save">Сохранить</message>
@@ -36,7 +37,7 @@
 <message key="xmlui.general.next">Далее</message>
 <message key="xmlui.general.untitled">Без имени</message>
 <message key="xmlui.general.perform">Выполнить</message>
-<message key="xmlui.general.queue">Encolar</message>
+<message key="xmlui.general.queue">Добавить в очередь</message>
 
 	<!--
 		Page not found keys
@@ -60,7 +61,7 @@
 	<!--
 		This section is for feed syndications (RSS, atom, etc)
 	-->
-<message key="xmlui.feed.general_description">El repositorio digital DSpace captura, almacena, indexa, preserva y distribuye materiales de investigación en formato digital.</message>
+<message key="xmlui.feed.general_description">Цифровое хранилище DSpace регистрирует, хранит, индексирует, защищает и распространяет исследовательские материалы в цифровом формате.</message>
 <message key="xmlui.feed.header">RSS Feeds</message>
 <message key="xmlui.feed.logo_title">Изображение</message>
 <message key="xmlui.feed.untitled">Без имени</message>
@@ -85,122 +86,122 @@
 
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.AbstractSearch.java -->
-<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_community">Resultados de la búsqueda en la comunidad: {0}</message>
-<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_collection">Resultados de la búsqueda en la colección: {0}</message>
-<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_none">Resultados de la búsqueda</message>
-<message key="xmlui.ArtifactBrowser.AbstractSearch.result_query">Su petición "{0}" produjo {1} resultados</message>
-<message key="xmlui.ArtifactBrowser.AbstractSearch.head2">Comunidades o colecciones que coinciden con la petición</message>
-<message key="xmlui.ArtifactBrowser.AbstractSearch.head3">Ítems que coinciden con la petición</message>
-<message key="xmlui.ArtifactBrowser.AbstractSearch.no_results">La búsqueda no produjo resultados</message>
-<message key="xmlui.ArtifactBrowser.AbstractSearch.all_of_dspace">Todo DSpace</message>
+<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_community">Результаты поиска для сообщества: {0}</message>
+<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_collection">Результаты поиска для коллекции: {0}</message>
+<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_none">Результаты поиска</message>
+<message key="xmlui.ArtifactBrowser.AbstractSearch.result_query">Ваш запрос "{0}" дал {1} результатов</message>
+<message key="xmlui.ArtifactBrowser.AbstractSearch.head2">Сообщества и коллекции, отвечающие Вашему запросу</message>
+<message key="xmlui.ArtifactBrowser.AbstractSearch.head3">Элементы отвечающие Вашему запросу</message>
+<message key="xmlui.ArtifactBrowser.AbstractSearch.no_results">Поиск не дал результатов</message>
+<message key="xmlui.ArtifactBrowser.AbstractSearch.all_of_dspace">Весь DSpace</message>
 
 <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.title">название</message>
 <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.dateissued">дата публикации</message>
-<message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.dateaccessioned">fecha de envío</message>
-<message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.relevance">pertinencia</message>
-<message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by">Ordenar ítems por</message>
-<message key="xmlui.ArtifactBrowser.AbstractSearch.order">en orden</message>
-<message key="xmlui.ArtifactBrowser.AbstractSearch.order.asc">ascendente</message>
-<message key="xmlui.ArtifactBrowser.AbstractSearch.order.desc">descendente</message>
-<message key="xmlui.ArtifactBrowser.AbstractSearch.rpp">Resultados/página</message>
+<message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.dateaccessioned">дата утверждения</message>
+<message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.relevance">релевантность</message>
+<message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by">Сортировать элементы по</message>
+<message key="xmlui.ArtifactBrowser.AbstractSearch.order">в порядке</message>
+<message key="xmlui.ArtifactBrowser.AbstractSearch.order.asc">возрастающем</message>
+<message key="xmlui.ArtifactBrowser.AbstractSearch.order.desc">убывающем</message>
+<message key="xmlui.ArtifactBrowser.AbstractSearch.rpp">Результаты/страница</message>
 
     <!-- org.dspace.app.xmlui.artifactbrowser.AdvancedSearch.java -->
 <message key="xmlui.ArtifactBrowser.AdvancedSearch.title">Расширенный поиск</message>
 <message key="xmlui.ArtifactBrowser.AdvancedSearch.trail">Расширенный поиск</message>
 <message key="xmlui.ArtifactBrowser.AdvancedSearch.head">Расширенный поиск</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.search_scope">Ámbito de búsqueda</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.search_scope_help">Limite la búsqueda a una comunidad o colección.</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.conjunction">Conjunción</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.search_scope">Поле поиска</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.search_scope_help">Поиск в пределах одного сообщества или коллекции.</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.conjunction">Соединение</message>
 <message key="xmlui.ArtifactBrowser.AdvancedSearch.search_type">Тип поиска</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.search_for">Buscar por</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_author">Автор</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_title">Название</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Materia</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_abstract">Resumen</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_series">Serie</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_sponsor">Patrocinador</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_identifier">Identificador</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_language">Язык (ISO)</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_keyword">Palabra clave</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.search_for">Искать по</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_author">Автору</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_title">Названию</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Теме</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_abstract">Аннотации</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_series">Серии</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_sponsor">Спонсору</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_identifier">Идентификатору</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_language">Языку (ISO)</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_keyword">Ключевым словам</message>
 
    <!--  some common other possibilities for Advanced Search Fields -->
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">Contribuidor/a</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">Creador/a</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Materia</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_description">Descripción</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_relation">Relación</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_mime">Tipo MIME</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_other">Otro/a colaborador/a</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_advisor">Asesor/a</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_department">Departamento</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">Спонсору</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">Автору</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">Теме</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_description">Описанию</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_relation">Отсылкам</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_mime">Типу MIME</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_other">Другим участникам</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_advisor">Консультанту</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.type_department">Отделению</message>
 
 <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_ANY">Полный текст</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.and">Y</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.or">O</message>
-<message key="xmlui.ArtifactBrowser.AdvancedSearch.not">NO</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.and">И</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.or">ИЛИ</message>
+<message key="xmlui.ArtifactBrowser.AdvancedSearch.not">НЕ</message>
 
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ConfigureableBrowse.java -->
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.starts_with">O introducir las primeras letras:</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.starts_with_help">Listar ítems que empiezan con estas letras</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_select">Saltar a un punto del índice:</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_month">(Elegir mes)</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_year">(Elegir año)</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year">O introducir un año:</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year_help">Listar ítems  de un determinado año.</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.no_results">Lo sentimos, no hay resultados para esta búsqueda.</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.sort_by">Ordenar por:</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.order">Orden:</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.rpp">Resultados:</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.etal">Autores/Ítem:</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.starts_with">Или введите первые несколько символов:</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.starts_with_help">Искать элементы, которые начинаются с этих символов</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_select">Перейти к определенному пункту оглавления</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_month">(Выберите месяц)</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_year">(Выбрите год)</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year">Или укажите год:</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year_help">Искать элементы указанного года.</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.no_results">К сожалению, этот поиск не дал результатов.</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.sort_by">Отсортировать по:</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.order">Порядку:</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.rpp">Результатам:</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.etal">Авторам/Элементам:</message>
 
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.etal.all">Все</message>
 
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.title">título</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.dateissued">fecha de publicación</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.dateaccessioned">fecha de envío</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.title">названию</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.dateissued">дате публикации</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.sort_by.dateaccessioned">дате утверждения</message>
 
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.order.asc">ascendente</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.order.desc">descendente</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.order.asc">по возрастанию</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.order.desc">по убыванию</message>
 
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.author.column_heading">Nombre de los autores</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.subject.column_heading">Materia</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.author.column_heading">авторам</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.subject.column_heading">темам</message>
 
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.author">Listar {0} por autor {1}</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.author">Listar {0} por autor</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.author">Просмотр {0} по автору {1}</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.author">Просмотр {0} по автору</message>
 
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.subject">Listar{0} por tema {1}</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.subject">Listar {0} por tema</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.subject">Просмотр{0} по теме {1}</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.subject">Просмотр {0} по теме</message>
 
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.title">Listar {0} por título {1}</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.title">Listar {0} por título</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.title">Посмотр {0} по названию {1}</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.title">Посмотр {0} по названию</message>
 
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateissued">Listar {0} por fecha de publicación {1}</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateissued">Listar {0} fecha de publicación</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateissued">Посмотр {0} по дате публикации {1}</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateissued">Посмотр {0} по дате публикации</message>
 
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateaccessioned">Listar {0} por fecha de envío {1}</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateaccessioned">Listar {0} por fecha de envío</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateaccessioned">Посмотр {0} по дате загрузки {1}</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateaccessioned">Посмотр {0} по дате загрузки</message>
 
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CollectionViewer.java -->
-<message key="xmlui.ArtifactBrowser.CollectionViewer.search_scope">Ámbito de búsqueda</message>
-<message key="xmlui.ArtifactBrowser.CollectionViewer.all_of_dspace">Todo DSpace</message>
-<message key="xmlui.ArtifactBrowser.CollectionViewer.full_text_search">Búsqueda en esta colección:</message>
-<message key="xmlui.ArtifactBrowser.CollectionViewer.head_browse">Listar por</message>
-<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_titles">Títulos</message>
-<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_authors">Авторы</message>
-<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_dates">Fechas</message>
-<message key="xmlui.ArtifactBrowser.CollectionViewer.advanced_search_link">Búsqueda avanzada</message>
-<message key="xmlui.ArtifactBrowser.CollectionViewer.head_recent_submissions">Envíos recientes</message>
+<message key="xmlui.ArtifactBrowser.CollectionViewer.search_scope">Область поиска</message>
+<message key="xmlui.ArtifactBrowser.CollectionViewer.all_of_dspace">Весь DSpace</message>
+<message key="xmlui.ArtifactBrowser.CollectionViewer.full_text_search">Поиск в этой коллекции:</message>
+<message key="xmlui.ArtifactBrowser.CollectionViewer.head_browse">Искать по</message>
+<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_titles">Названию</message>
+<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_authors">Авторам</message>
+<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_dates">Датам</message>
+<message key="xmlui.ArtifactBrowser.CollectionViewer.advanced_search_link">Продвинутый поиск</message>
+<message key="xmlui.ArtifactBrowser.CollectionViewer.head_recent_submissions">Недавние добавления</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityBrowser.java -->
-<message key="xmlui.ArtifactBrowser.CommunityBrowser.title">Lista de comunidades</message>
-<message key="xmlui.ArtifactBrowser.CommunityBrowser.trail">Lista de comunidades</message>
+<message key="xmlui.ArtifactBrowser.CommunityBrowser.title">Список сообществ</message>
+<message key="xmlui.ArtifactBrowser.CommunityBrowser.trail">Список сообществ</message>
 <message key="xmlui.ArtifactBrowser.CommunityBrowser.head">Сообщества DSpace</message>
-<message key="xmlui.ArtifactBrowser.CommunityBrowser.select">Elija una comunidad para listar sus colecciones</message>
+<message key="xmlui.ArtifactBrowser.CommunityBrowser.select">Выберите сообщество для просмотра его коллекций</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityViewer.java -->
-<message key="xmlui.ArtifactBrowser.CommunityViewer.search_scope">Ámbito de búsqueda</message>
+<message key="xmlui.ArtifactBrowser.CommunityViewer.search_scope">Область поиска</message>
 <message key="xmlui.ArtifactBrowser.CommunityViewer.all_of_dspace">Весь DSpace</message>
 <message key="xmlui.ArtifactBrowser.CommunityViewer.full_text_search">Buscar en esta comunidad y sus colecciones:</message>
 <message key="xmlui.ArtifactBrowser.CommunityViewer.head_browse">Listar por</message>
@@ -214,64 +215,64 @@
 
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.Contact.java -->
-<message key="xmlui.ArtifactBrowser.Contact.title">Contacto</message>
-<message key="xmlui.ArtifactBrowser.Contact.trail">Contacto</message>
-<message key="xmlui.ArtifactBrowser.Contact.head">Contacto</message>
-<message key="xmlui.ArtifactBrowser.Contact.para1">Contacto de administrador de {0}:</message>
-<message key="xmlui.ArtifactBrowser.Contact.feedback_label">Formulario en línea</message>
-<message key="xmlui.ArtifactBrowser.Contact.feedback_link">Sugerencias</message>
-<message key="xmlui.ArtifactBrowser.Contact.email">Correo electrónico</message>
+<message key="xmlui.ArtifactBrowser.Contact.title">Наши контакты</message>
+<message key="xmlui.ArtifactBrowser.Contact.trail">Наши контакты</message>
+<message key="xmlui.ArtifactBrowser.Contact.head">Наши контакты</message>
+<message key="xmlui.ArtifactBrowser.Contact.para1">С {0} администраторами Вы можете связаться через:</message>
+<message key="xmlui.ArtifactBrowser.Contact.feedback_label">On-line форму</message>
+<message key="xmlui.ArtifactBrowser.Contact.feedback_link">Комментарий</message>
+<message key="xmlui.ArtifactBrowser.Contact.email">Электронный адрес</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.FeedbackForm.java -->
-<message key="xmlui.ArtifactBrowser.FeedbackForm.title">Sugerencias</message>
-<message key="xmlui.ArtifactBrowser.FeedbackForm.trail">Sugerencias</message>
-<message key="xmlui.ArtifactBrowser.FeedbackForm.head">Sugerencias</message>
-<message key="xmlui.ArtifactBrowser.FeedbackForm.para1">Gracias por compartir sus sugerencias sobre DSpace. ¡Tendremos en cuenta sus comentarios!</message>
-<message key="xmlui.ArtifactBrowser.FeedbackForm.email">Su correo electrónico</message>
-<message key="xmlui.ArtifactBrowser.FeedbackForm.email_help">Esta dirección será utilizada para seguimiento de su sugerencia.</message>
+<message key="xmlui.ArtifactBrowser.FeedbackForm.title">Оставить комментарий</message>
+<message key="xmlui.ArtifactBrowser.FeedbackForm.trail">Оставить комментарий</message>
+<message key="xmlui.ArtifactBrowser.FeedbackForm.head">Оставить комментарий</message>
+<message key="xmlui.ArtifactBrowser.FeedbackForm.para1">Благодарим Вас за ваш комментарий. Все комментарии будут учтены!</message>
+<message key="xmlui.ArtifactBrowser.FeedbackForm.email">Ваш электронный адрес</message>
+<message key="xmlui.ArtifactBrowser.FeedbackForm.email_help">Данный электронный адрес будет использован для отслеживания Вашего комментария.</message>
 <message key="xmlui.ArtifactBrowser.FeedbackForm.comments">Комментарии</message>
-<message key="xmlui.ArtifactBrowser.FeedbackForm.submit">Sugerencias</message>
+<message key="xmlui.ArtifactBrowser.FeedbackForm.submit">Оставить комментарий</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.FeedbackSent.java -->
-<message key="xmlui.ArtifactBrowser.FeedbackSent.title">Sugerencias</message>
-<message key="xmlui.ArtifactBrowser.FeedbackSent.trail">Sugerencias</message>
-<message key="xmlui.ArtifactBrowser.FeedbackSent.head">Sugerencia enviada</message>
-<message key="xmlui.ArtifactBrowser.FeedbackSent.para1">Su comentario ha sido recibido</message>
+<message key="xmlui.ArtifactBrowser.FeedbackSent.title">Оставить комментарий</message>
+<message key="xmlui.ArtifactBrowser.FeedbackSent.trail">Оставить комментарий</message>
+<message key="xmlui.ArtifactBrowser.FeedbackSent.head">Комментарий отправлен</message>
+<message key="xmlui.ArtifactBrowser.FeedbackSent.para1">Ваш комментарий был получен</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.FrontPageSearch.java -->
 <message key="xmlui.ArtifactBrowser.FrontPageSearch.head">Поиск в DSpace</message>
-<message key="xmlui.ArtifactBrowser.FrontPageSearch.para1">Introduzca el texto a buscar en DSpace</message>
+<message key="xmlui.ArtifactBrowser.FrontPageSearch.para1">Введите текст для поиска в DSpace</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemViewer.java -->
-<message key="xmlui.ArtifactBrowser.ItemViewer.trail">Ver ítem</message>
-<message key="xmlui.ArtifactBrowser.ItemViewer.head_parent_collections">Este ítem aparece en la(s) siguiente(s) colección(ones)</message>
-<message key="xmlui.ArtifactBrowser.ItemViewer.show_simple">Mostrar el registro sencillo del ítem</message>
-<message key="xmlui.ArtifactBrowser.ItemViewer.show_full">Mostrar el registro completo del ítem</message>
+<message key="xmlui.ArtifactBrowser.ItemViewer.trail">Просмотр элемента</message>
+<message key="xmlui.ArtifactBrowser.ItemViewer.head_parent_collections">Данный элемент присутствует в следующих коллекциях</message>
+<message key="xmlui.ArtifactBrowser.ItemViewer.show_simple">Показать сокращенную информацию</message>
+<message key="xmlui.ArtifactBrowser.ItemViewer.show_full">Показать полную информацию</message>
 
-<message key="xmlui.ArtifactBrowser.ItemViewer.withdrawn">Este ítem ha sido retirado y no está disponible</message>
+<message key="xmlui.ArtifactBrowser.ItemViewer.withdrawn">Этот элемент не доступен, т. к. был удален</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.Navigation.java -->
 <message key="xmlui.ArtifactBrowser.Navigation.head_browse">Просмотр</message>
 <message key="xmlui.ArtifactBrowser.Navigation.head_all_of_dspace">Весь DSpace</message>
-<message key="xmlui.ArtifactBrowser.Navigation.communities_and_collections">Comunidades &amp; colecciones</message>
-<message key="xmlui.ArtifactBrowser.Navigation.browse_title">Títulos</message>
+<message key="xmlui.ArtifactBrowser.Navigation.communities_and_collections">Сообщества &amp; коллекции</message>
+<message key="xmlui.ArtifactBrowser.Navigation.browse_title">Названия</message>
 <message key="xmlui.ArtifactBrowser.Navigation.browse_author">Авторы</message>
-<message key="xmlui.ArtifactBrowser.Navigation.browse_subject">Materias</message>
-<message key="xmlui.ArtifactBrowser.Navigation.browse_dateissued">Por fecha de publicación</message>
-<message key="xmlui.ArtifactBrowser.Navigation.browse_dateaccessioned">Por fecha de envío</message>
-<message key="xmlui.ArtifactBrowser.Navigation.head_this_collection">Esta colección</message>
-<message key="xmlui.ArtifactBrowser.Navigation.head_this_community">Esta comunidad</message>
+<message key="xmlui.ArtifactBrowser.Navigation.browse_subject">Тематика</message>
+<message key="xmlui.ArtifactBrowser.Navigation.browse_dateissued">Дата публикации</message>
+<message key="xmlui.ArtifactBrowser.Navigation.browse_dateaccessioned">Дата добавления</message>
+<message key="xmlui.ArtifactBrowser.Navigation.head_this_collection">Эта коллекция</message>
+<message key="xmlui.ArtifactBrowser.Navigation.head_this_community">Это сообщество</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.SimpleSearch.java -->
-<message key="xmlui.ArtifactBrowser.SimpleSearch.title">Buscar</message>
-<message key="xmlui.ArtifactBrowser.SimpleSearch.trail">Buscar</message>
-<message key="xmlui.ArtifactBrowser.SimpleSearch.head">Buscar</message>
-<message key="xmlui.ArtifactBrowser.SimpleSearch.search_scope">Ámbito de búsqueda</message>
-<message key="xmlui.ArtifactBrowser.SimpleSearch.full_text_search">Búsqueda a texto completo</message>
+<message key="xmlui.ArtifactBrowser.SimpleSearch.title">Искать</message>
+<message key="xmlui.ArtifactBrowser.SimpleSearch.trail">Искать</message>
+<message key="xmlui.ArtifactBrowser.SimpleSearch.head">Искать</message>
+<message key="xmlui.ArtifactBrowser.SimpleSearch.search_scope">Область поиска</message>
+<message key="xmlui.ArtifactBrowser.SimpleSearch.full_text_search">Искать целый текст</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.RestrictedItem.java -->
-<message key="xmlui.ArtifactBrowser.RestrictedItem.title">Este recurso está restringido</message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.trail">Restringido</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.title">Доступ к данному ресурсу ограничен</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.trail">Доступ ограничен</message>
 <message key="xmlui.ArtifactBrowser.RestrictedItem.head_resource">Este recurso está restringido</message>
 <message key="xmlui.ArtifactBrowser.RestrictedItem.head_community">Esta comunidad está restringida</message>
 <message key="xmlui.ArtifactBrowser.RestrictedItem.head_collection">Esta colección está restringida</message>
@@ -306,12 +307,12 @@
 <message key="xmlui.ArtifactBrowser.StatisticsViewer.no_report.text">No hay actualmente informes disponibles para este servicio. Compruebe su disponibilidad más adelante.</message>
 
     <!-- Authentication messages used for bitstream authentication -->
-<message key="xmlui.BitstreamReader.auth_header">El archivo está restringido</message>
-<message key="xmlui.BitstreamReader.auth_message">El archivo al que intenta acceder es un archivo restringido y requiere credenciales para verse. Por favor, identifíquese arriba para acceder al archivo.</message>
+<message key="xmlui.BitstreamReader.auth_header">Доступ к архиву ограничен.</message>
+<message key="xmlui.BitstreamReader.auth_message">Доступ к архиву ограничен. Для получения доступа, пожалуйста, войдите в систему.</message>
 
 	<!-- Export Archive download messages -->
-<message key="xmlui.ItemExportDownloadReader.auth_header">Este archivo de exportación está restringido.</message>
-<message key="xmlui.ItemExportDownloadReader.auth_message">El archivo de exportación al que intenta acceder es un recurso restringido y requiere permisos para ser visualizado. Autentíquese abajo para acceder al archivo de exportación.</message>
+<message key="xmlui.ItemExportDownloadReader.auth_header">Доступ к архиву ограничен.</message>
+<message key="xmlui.ItemExportDownloadReader.auth_message">Доступ к архиву ограничен. Для получения доступа, пожалуйста, войдите в систему.</message>
 
 	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -326,32 +327,32 @@
 
 
 	<!-- General keys used by the EPerson aspect -->
-<message key="xmlui.EPerson.trail_new_registration">Registro de usuario nuevo</message>
-<message key="xmlui.EPerson.trail_forgot_password">¿Olvidó la contraseña?</message>
+<message key="xmlui.EPerson.trail_new_registration">Регистрация нового пользователя</message>
+<message key="xmlui.EPerson.trail_forgot_password">Забыли пароль?</message>
 
 	<!-- org.dspace.app.xmlui.eperson.CannotRegister.java -->
-<message key="xmlui.EPerson.CannotRegister.title">Registro no disponible</message>
-<message key="xmlui.EPerson.CannotRegister.head">Registro no disponible</message>
-<message key="xmlui.EPerson.CannotRegister.para1">La configuración de este repositorio DSpace no permite registro en este contexto. Por favor, contacte con el <a href="../contact">administrador</a>.</message>
+<message key="xmlui.EPerson.CannotRegister.title">Регистрация недоступна</message>
+<message key="xmlui.EPerson.CannotRegister.head">Регистрация недоступна</message>
+<message key="xmlui.EPerson.CannotRegister.para1">Текущая конфигурация DSpace не позволяет проводить регистрацию. Пожалуйста, обратитесь к <a href="../contact">администратору</a>.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.EditProfile.java -->
-<message key="xmlui.EPerson.EditProfile.title_update">Modificar perfil</message>
-<message key="xmlui.EPerson.EditProfile.title_create">Crear perfil</message>
-<message key="xmlui.EPerson.EditProfile.trail_update">Modificar perfil</message>
-<message key="xmlui.EPerson.EditProfile.head_update">Modificar perfil</message>
-<message key="xmlui.EPerson.EditProfile.head_create">Crear perfil</message>
-<message key="xmlui.EPerson.EditProfile.email_address">Dirección de correo electrónico</message>
-<message key="xmlui.EPerson.EditProfile.first_name">Nombre</message>
-<message key="xmlui.EPerson.EditProfile.last_name">Apellido</message>
-<message key="xmlui.EPerson.EditProfile.telephone">Teléfono de contacto</message>
-<message key="xmlui.EPerson.EditProfile.Language">Idioma</message>
-<message key="xmlui.EPerson.EditProfile.subscriptions">Suscripciones</message>
-<message key="xmlui.EPerson.EditProfile.subscriptions_help">Puede suscribirse a colecciones para recibir diariamente un correo con los nuevos ítems añadidos. Puede suscribirse a tantas colecciones como desee. Otra opción es usar el servicio RSS disponible para todas las colecciones.</message>
-<message key="xmlui.EPerson.EditProfile.email_subscriptions">Suscripción de Correo electrónico</message>
-<message key="xmlui.EPerson.EditProfile.select_collection">(Elija una colección)</message>
-<message key="xmlui.EPerson.EditProfile.update_password_instructions">Opcionalmente, puede elegir una contraseña nueva tecleándola en la casilla superior y verificarla en la segunda casilla. Debería tener al menos seis caracteres.</message>
+<message key="xmlui.EPerson.EditProfile.title_update">Обновить профиль</message>
+<message key="xmlui.EPerson.EditProfile.title_create">Создать профиль</message>
+<message key="xmlui.EPerson.EditProfile.trail_update">Обновить профиль</message>
+<message key="xmlui.EPerson.EditProfile.head_update">Обновить профиль</message>
+<message key="xmlui.EPerson.EditProfile.head_create">Создать профиль</message>
+<message key="xmlui.EPerson.EditProfile.email_address">Адрес электронной почты</message>
+<message key="xmlui.EPerson.EditProfile.first_name">Имя</message>
+<message key="xmlui.EPerson.EditProfile.last_name">Фамилия</message>
+<message key="xmlui.EPerson.EditProfile.telephone">Контактный телефон</message>
+<message key="xmlui.EPerson.EditProfile.Language">Язык</message>
+<message key="xmlui.EPerson.EditProfile.subscriptions">Подписки</message>
+<message key="xmlui.EPerson.EditProfile.subscriptions_help">Вы можете подписаться на получение ежедневных извещений о новых загруженных элементах в интересующих Вас коллекциях. Также вы можете использовать RSS ленту новостей, доступную для каждой коллекции.</message>
+<message key="xmlui.EPerson.EditProfile.email_subscriptions">Email подписка</message>
+<message key="xmlui.EPerson.EditProfile.select_collection">(Выберите коллекцию)</message>
+<message key="xmlui.EPerson.EditProfile.update_password_instructions">По желанию, Вы так же можете изменить свой пароль(введите новый пароль и подтвердите его). Новый пароль должен содержать не менее шести символов.</message>
 <message key="xmlui.EPerson.EditProfile.create_password_instructions">Por favor, introduzca una clave en la casilla superior. Confírmela volviendo a teclearla en la segunda casilla. Debería tener al menos seis caracteres.</message>
-<message key="xmlui.EPerson.EditProfile.password">Contraseña</message>
+<message key="xmlui.EPerson.EditProfile.password">Пароль</message>
 <message key="xmlui.EPerson.EditProfile.confirm_password">Repita para confirmar</message>
 <message key="xmlui.EPerson.EditProfile.submit_update">Completar el registro</message>
 <message key="xmlui.EPerson.EditProfile.submit_create">Modificar perfil</message>
@@ -360,20 +361,20 @@
 <message key="xmlui.EPerson.EditProfile.error_unconfirmed_password">Por favor, repita la contraseña para confirmarla</message>
 <message key="xmlui.EPerson.EditProfile.head_auth">Usted pertenece a los siguientes grupos de autorización</message>
 <message key="xmlui.EPerson.EditProfile.head_identify">Identificar</message>
-<message key="xmlui.EPerson.EditProfile.head_security">Seguridad</message>
+<message key="xmlui.EPerson.EditProfile.head_security">Безопасность</message>
 
 	<!-- org.dspace.app.xmlui.eperson.EPersonUtils.java -->
-<message key="xmlui.EPerson.EPersonUtils.register_verify_email">Verifique el correo electrónico</message>
-<message key="xmlui.EPerson.EPersonUtils.register_create_profile">Crear perfil</message>
-<message key="xmlui.EPerson.EPersonUtils.register_finished">Terminado</message>
-<message key="xmlui.EPerson.EPersonUtils.forgot_verify_email">Verifique el correo electrónico</message>
-<message key="xmlui.EPerson.EPersonUtils.forgot_reset_password">Restablecer contraseña</message>
-<message key="xmlui.EPerson.EPersonUtils.forgot_finished">Terminado</message>
+<message key="xmlui.EPerson.EPersonUtils.register_verify_email">Подтвердите адрес электронной почты</message>
+<message key="xmlui.EPerson.EPersonUtils.register_create_profile">Создание учетной записи</message>
+<message key="xmlui.EPerson.EPersonUtils.register_finished">Выполнено</message>
+<message key="xmlui.EPerson.EPersonUtils.forgot_verify_email">Подтвердите адрес электронной почты</message>
+<message key="xmlui.EPerson.EPersonUtils.forgot_reset_password">Восстановить пароль</message>
+<message key="xmlui.EPerson.EPersonUtils.forgot_finished">Выполнено</message>
 
 	<!-- org.dspace.app.xmlui.eperson.ForgotPasswordFinished.java -->
-<message key="xmlui.EPerson.ForgotPasswordFinished.title">Restablecer contraseña</message>
-<message key="xmlui.EPerson.ForgotPasswordFinished.head">Restablecer contraseña</message>
-<message key="xmlui.EPerson.ForgotPasswordFinished.para1">Su contraseña ha sido restablecida</message>
+<message key="xmlui.EPerson.ForgotPasswordFinished.title">Восстановление пароля</message>
+<message key="xmlui.EPerson.ForgotPasswordFinished.head">Восстановление пароля</message>
+<message key="xmlui.EPerson.ForgotPasswordFinished.para1">Ваш пароль был восстановлен</message>
 
 	<!-- org.dspace.app.xmlui.eperson.InvalidToken.java -->
 <message key="xmlui.EPerson.InvalidToken.title">Cadena no válida</message>
@@ -384,24 +385,24 @@
 
 	<!-- org.dspace.app.xmlui.eperson.Navigation.java -->
 <message key="xmlui.EPerson.Navigation.my_account">Моя учетная запись</message>
-<message key="xmlui.EPerson.Navigation.profile">Perfil</message>
-<message key="xmlui.EPerson.Navigation.logout">Salir</message>
+<message key="xmlui.EPerson.Navigation.profile">Профиль</message>
+<message key="xmlui.EPerson.Navigation.logout">Выйти</message>
 <message key="xmlui.EPerson.Navigation.login">Войти</message>
 <message key="xmlui.EPerson.Navigation.register">Регистрация</message>
 
 	<!-- org.dspace.app.xmlui.eperson.PasswordLogin.java -->
-<message key="xmlui.EPerson.PasswordLogin.title">Acceder</message>
-<message key="xmlui.EPerson.PasswordLogin.trail">Acceder</message>
-<message key="xmlui.EPerson.PasswordLogin.head1">Acceder a DSpace</message>
-<message key="xmlui.EPerson.PasswordLogin.title">Acceder</message>
-<message key="xmlui.EPerson.PasswordLogin.email_address">Correo electrónico</message>
-<message key="xmlui.EPerson.PasswordLogin.error_bad_login">La dirección de correo electrónico introducida y/o la contraseña no son válidas.</message>
-<message key="xmlui.EPerson.PasswordLogin.password">Contraseña</message>
-<message key="xmlui.EPerson.PasswordLogin.forgot_link">¿Olvidó su contraseña?</message>
-<message key="xmlui.EPerson.PasswordLogin.submit">Acceder</message>
-<message key="xmlui.EPerson.PasswordLogin.head2">Registrar un nuevo usuario</message>
-<message key="xmlui.EPerson.PasswordLogin.para1">Registre una cuenta para suscribirse a las colecciones, para recibir notificación de modificaciones y de nuevas adquisiciones de ítems en DSpace.</message>
-<message key="xmlui.EPerson.PasswordLogin.register_link">Pulse aquí para registrarse.</message>
+<message key="xmlui.EPerson.PasswordLogin.title">Войти</message>
+<message key="xmlui.EPerson.PasswordLogin.trail">Войти</message>
+<message key="xmlui.EPerson.PasswordLogin.head1">Войти в DSpace</message>
+<message key="xmlui.EPerson.PasswordLogin.title">Войти</message>
+<message key="xmlui.EPerson.PasswordLogin.email_address">Адрес электронной почты</message>
+<message key="xmlui.EPerson.PasswordLogin.error_bad_login">Введенные Вами адрес электронной почты и/или пароль недействительны.</message>
+<message key="xmlui.EPerson.PasswordLogin.password">Пароль</message>
+<message key="xmlui.EPerson.PasswordLogin.forgot_link">Забыли пароль?</message>
+<message key="xmlui.EPerson.PasswordLogin.submit">Войти</message>
+<message key="xmlui.EPerson.PasswordLogin.head2">Регистрация нового пользователя</message>
+<message key="xmlui.EPerson.PasswordLogin.para1">Зарегистрируйте аккаунт, чтобы подписаться на коллекции, получать обновления по электронной почте, а также добавлять новые элементы в DSpace.</message>
+<message key="xmlui.EPerson.PasswordLogin.register_link">Нажмите здесь,чтобы зарегистрироваться.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.LDAPLogin.java -->
 <message key="xmlui.EPerson.LDAPLogin.title">Acceder</message>
@@ -504,32 +505,32 @@
 
 
 	<!-- general submission aspect messages -->
-<message key="xmlui.Submission.general.mydspace_home">DSpace Principal</message>
+<message key="xmlui.Submission.general.mydspace_home">Главная DSpace</message>
 <message key="xmlui.Submission.general.go_mydspace">Мой DSpace</message>
-<message key="xmlui.Submission.general.submission.title">Envío de ítems</message>
-<message key="xmlui.Submission.general.submission.trail">Envío de ítems</message>
-<message key="xmlui.Submission.general.submission.head">Envío de ítems</message>
-<message key="xmlui.Submission.general.submission.previous">&lt; Anterior</message>
-<message key="xmlui.Submission.general.submission.save">Guardar / Salir</message>
-<message key="xmlui.Submission.general.submission.next">Siguiente &gt;</message>
-<message key="xmlui.Submission.general.submission.complete">Completar el envío</message>
-<message key="xmlui.Submission.general.workflow.title">Envío de ítems</message>
-<message key="xmlui.Submission.general.workflow.trail">Envío de ítems</message>
-<message key="xmlui.Submission.general.workflow.head">Envío de ítems</message>
-<message key="xmlui.Submission.general.showfull">Mostrar el registro completo del ítem</message>
-<message key="xmlui.Submission.general.showsimple">Mostrar el registro sencillo del ítem</message>
-<message key="xmlui.Submission.general.default.title">Envío</message>
-<message key="xmlui.Submission.general.default.trail">Envío</message>
+<message key="xmlui.Submission.general.submission.title">Отправка элемента</message>
+<message key="xmlui.Submission.general.submission.trail">Отправка элемента</message>
+<message key="xmlui.Submission.general.submission.head">Отправка элемента</message>
+<message key="xmlui.Submission.general.submission.previous">&lt; Передыдущий</message>
+<message key="xmlui.Submission.general.submission.save">Сохранить / Выйти</message>
+<message key="xmlui.Submission.general.submission.next">Следующий &gt;</message>
+<message key="xmlui.Submission.general.submission.complete">Завершить отправку</message>
+<message key="xmlui.Submission.general.workflow.title">Отправка элементов</message>
+<message key="xmlui.Submission.general.workflow.trail">Отправка элементов</message>
+<message key="xmlui.Submission.general.workflow.head">Отправка элементов</message>
+<message key="xmlui.Submission.general.showfull">Показать полную запись элемента</message>
+<message key="xmlui.Submission.general.showsimple">Показать сокращенную запись элемента</message>
+<message key="xmlui.Submission.general.default.title">Отправка</message>
+<message key="xmlui.Submission.general.default.trail">Отправка</message>
 
 	<!-- org.dspace.app.xmlui.submission.CollectiovViewer -->
-<message key="xmlui.Submission.CollectionViewer.link1">Enviar un ítem a esta colección</message>
+<message key="xmlui.Submission.CollectionViewer.link1">Добавить элемент в эту коллекцию</message>
 
 	<!-- org.dspace.app.xmlui.submission.Navigation -->
-<message key="xmlui.Submission.Navigation.submissions">Envíos</message>
+<message key="xmlui.Submission.Navigation.submissions">Отправления</message>
 
 	
   <!-- org.dspace.app.xmlui.Submission.submissions -->
-<message key="xmlui.Submission.Submissions.title">Envíos &amp; Flujos de trabajo</message>
+<message key="xmlui.Submission.Submissions.title">Отправления &amp; Flujos de trabajo</message>
 <message key="xmlui.Submission.Submissions.trail">Envíos</message>
 <message key="xmlui.Submission.Submissions.head">Envíos &amp; tareas del flujo de trabajo</message>
 <message key="xmlui.Submission.Submissions.untitled"><i>Sin título</i></message>
@@ -869,7 +870,7 @@
 <message key="xmlui.administrative.FlowMapperUtils.unmaped_items">Se ha eliminado correctamente la relación de los ítems.</message>
 
 	<!-- general items for all of the eperson classes -->
-<message key="xmlui.administrative.eperson.general.epeople_trail">Administrar usuarios</message>
+<message key="xmlui.administrative.eperson.general.epeople_trail">Администрирование пользователей</message>
 
 	<!-- org.dspace.app.xmlui.administrative.Navigation -->
 	<!-- contextual menu items -->
@@ -887,24 +888,24 @@
 <message key="xmlui.administrative.Navigation.context_export_metadata">Exportar metadatos</message>
 
 	<!-- Site administrator options -->
-<message key="xmlui.administrative.Navigation.administrative_head">Administrativo</message>
-<message key="xmlui.administrative.Navigation.administrative_access_control">Control de acceso</message>
-<message key="xmlui.administrative.Navigation.administrative_people">Personas</message>
-<message key="xmlui.administrative.Navigation.administrative_groups">Grupos</message>
-<message key="xmlui.administrative.Navigation.administrative_authorizations">Autorizaciones</message>
-<message key="xmlui.administrative.Navigation.administrative_registries">Registros</message>
-<message key="xmlui.administrative.Navigation.administrative_metadata">Metadatos</message>
-<message key="xmlui.administrative.Navigation.administrative_format">Formato</message>
-<message key="xmlui.administrative.Navigation.administrative_items">Ítems</message>
-<message key="xmlui.administrative.Navigation.administrative_withdrawn">Ítems eliminados</message>
-<message key="xmlui.administrative.Navigation.administrative_private">Ítems Privados</message>
-  <message key="xmlui.administrative.Navigation.administrative_control_panel">Panel de control</message>
-<message key="xmlui.administrative.Navigation.statistics">Estadísticas</message>
-<message key="xmlui.administrative.Navigation.administrative_import_metadata">Importar Metadatos</message>
-<message key="xmlui.administrative.Navigation.administrative_curation">Tareas de Curación</message>
+<message key="xmlui.administrative.Navigation.administrative_head">Администрирование</message>
+<message key="xmlui.administrative.Navigation.administrative_access_control">Контроль доступа</message>
+<message key="xmlui.administrative.Navigation.administrative_people">Люди</message>
+<message key="xmlui.administrative.Navigation.administrative_groups">Группы</message>
+<message key="xmlui.administrative.Navigation.administrative_authorizations">Авторизация</message>
+<message key="xmlui.administrative.Navigation.administrative_registries">Жруналы</message>
+<message key="xmlui.administrative.Navigation.administrative_metadata">Метаданные</message>
+<message key="xmlui.administrative.Navigation.administrative_format">Формат</message>
+<message key="xmlui.administrative.Navigation.administrative_items">Элементы</message>
+<message key="xmlui.administrative.Navigation.administrative_withdrawn">Удаленные элементы</message>
+<message key="xmlui.administrative.Navigation.administrative_private">Элементы персонального доступа</message>
+  <message key="xmlui.administrative.Navigation.administrative_control_panel">Панель управления</message>
+<message key="xmlui.administrative.Navigation.statistics">Статистика</message>
+<message key="xmlui.administrative.Navigation.administrative_import_metadata">Имотритровать метаданные</message>
+<message key="xmlui.administrative.Navigation.administrative_curation">Административное курирование</message>
 
     <!-- my account items -->
-<message key="xmlui.administrative.Navigation.account_export">Mis exportaciones</message>
+<message key="xmlui.administrative.Navigation.account_export">Мой экспорт</message>
 
 	<!-- export item -->
 <message key="xmlui.administrative.ItemExport.head">Exportar Archivo  </message>
@@ -1195,7 +1196,7 @@
 <message key="xmlui.administrative.registries.MoveMetadataField.submit_move">Mover campos</message>
 
 	<!-- general authorization keywords -->
-<message key="xmlui.administrative.authorization.general.authorize_trail">Autorización</message>
+<message key="xmlui.administrative.authorization.general.authorize_trail">Авторизация</message>
 <message key="xmlui.administrative.authorization.general.policyList_trail">Lista de privilegios</message>
 
 	<!-- org.dspace.app.xmlui.administrative.authorization.AuthorizationMain -->
@@ -1552,11 +1553,11 @@
 <message key="xmlui.administrative.mapper.BrowseItemForm.no_remove">Necesita el privilegio BORRAR en esta colección para desrelacionar los ítems.</message>
 
 	<!-- General tags for collection management -->
-<message key="xmlui.administrative.collection.general.collection_trail">Colecciones</message>
-<message key="xmlui.administrative.collection.general.options_metadata">Editar metadatos</message>
-<message key="xmlui.administrative.collection.general.options_roles">Asignar roles</message>
+<message key="xmlui.administrative.collection.general.collection_trail">Коллекции</message>
+<message key="xmlui.administrative.collection.general.options_metadata">Редактировать метаданные</message>
+<message key="xmlui.administrative.collection.general.options_roles">Распределение ролей</message>
 <message key="xmlui.administrative.collection.general.options_curate">Curar</message>
-<message key="xmlui.administrative.collection.general.options_queue">Encolar</message>
+<message key="xmlui.administrative.collection.general.options_queue">Очередь</message>
 
 	<!-- org.dspace.app.xmlui.administrative.collection.AssignCollectionRoles.java -->
 <message key="xmlui.administrative.collection.AssignCollectionRoles.title">Editar roles de la colección</message>
@@ -1704,11 +1705,11 @@
 <message key="xmlui.administrative.ControlPanel.harvest_head_harvester_settings">Parámetros del Recolectador</message>
 
 	<!-- General tags for community management -->
-<message key="xmlui.administrative.community.general.community_trail">Comunidades</message>
+<message key="xmlui.administrative.community.general.community_trail">Сообщества</message>
 <message key="xmlui.administrative.community.general.options_metadata">Editar metadatos</message>
 <message key="xmlui.administrative.community.general.options_roles">Asignar roles</message>
-<message key="xmlui.administrative.community.general.options_curate">Curar</message>
-<message key="xmlui.administrative.community.general.options_queue">Encolar</message>
+<message key="xmlui.administrative.community.general.options_curate">Курировать</message>
+<message key="xmlui.administrative.community.general.options_queue">Поставить в очередь</message>
 
 	<!-- org.dspace.app.xmlui.administrative.community.AssignCommunityRoles.java -->
 <message key="xmlui.administrative.community.AssignCommunityRoles.title">Editar Roles de Comunidad</message>
@@ -1771,27 +1772,27 @@
 <message key="xmlui.administrative.community.CreateCommunityForm.submit_save">Создать</message>
 
 	<!-- org.dspace.app.xmlui.administrative.ControlPanel.java -->
-<message key="xmlui.administrative.ControlPanel.title">Panel de control</message>
-<message key="xmlui.administrative.ControlPanel.trail">Panel de control</message>
-<message key="xmlui.administrative.ControlPanel.head">Panel de control</message>
+<message key="xmlui.administrative.ControlPanel.title">Панель управления</message>
+<message key="xmlui.administrative.ControlPanel.trail">Панель управления</message>
+<message key="xmlui.administrative.ControlPanel.head">Панель управления</message>
 <message key="xmlui.administrative.ControlPanel.option_java">Информация Java</message>
 <message key="xmlui.administrative.ControlPanel.option_dspace">Конфигурация Dspace</message>
-<message key="xmlui.administrative.ControlPanel.option_alerts">Alertas del Sistema</message>
-<message key="xmlui.administrative.ControlPanel.hours">{0} h</message>
-<message key="xmlui.administrative.ControlPanel.minutes">{0} min</message>
-<message key="xmlui.administrative.ControlPanel.seconds">{0} s</message>
-<message key="xmlui.administrative.ControlPanel.java_head">Java y sistema operativo</message>
+<message key="xmlui.administrative.ControlPanel.option_alerts">Системные оповещения</message>
+<message key="xmlui.administrative.ControlPanel.hours">{0} ч</message>
+<message key="xmlui.administrative.ControlPanel.minutes">{0} мин</message>
+<message key="xmlui.administrative.ControlPanel.seconds">{0} сек</message>
+<message key="xmlui.administrative.ControlPanel.java_head">Java и операционная система</message>
 <message key="xmlui.administrative.ControlPanel.java_version">Versión de Java Runtime Environment</message>
 <message key="xmlui.administrative.ControlPanel.java_vendor">Proveedor de Java Runtime Environment</message>
-<message key="xmlui.administrative.ControlPanel.os_name">Nombre del sistema operativo</message>
-<message key="xmlui.administrative.ControlPanel.os_arch">Arquitectura del sistema operativo</message>
-<message key="xmlui.administrative.ControlPanel.os_version">Versión del sistema operativo</message>
-<message key="xmlui.administrative.ControlPanel.runtime_head">Estadísticas de ejecución</message>
-<message key="xmlui.administrative.ControlPanel.runtime_processors">Procesadores disponibles</message>
-<message key="xmlui.administrative.ControlPanel.runtime_max">Memoria máxima</message>
-<message key="xmlui.administrative.ControlPanel.runtime_total">Memoria asignada</message>
-<message key="xmlui.administrative.ControlPanel.runtime_used">Memoria utilizada</message>
-<message key="xmlui.administrative.ControlPanel.runtime_free">Memoria libre</message>
+<message key="xmlui.administrative.ControlPanel.os_name">Название операционной системы</message>
+<message key="xmlui.administrative.ControlPanel.os_arch">Архитектура операционной системы</message>
+<message key="xmlui.administrative.ControlPanel.os_version">Версия операционной системы</message>
+<message key="xmlui.administrative.ControlPanel.runtime_head">Статистика</message>
+<message key="xmlui.administrative.ControlPanel.runtime_processors">Доступные процессоры</message>
+<message key="xmlui.administrative.ControlPanel.runtime_max">Максимальное количество памяти</message>
+<message key="xmlui.administrative.ControlPanel.runtime_total">Выделенное количество памяти</message>
+<message key="xmlui.administrative.ControlPanel.runtime_used">Использованное количество памяти</message>
+<message key="xmlui.administrative.ControlPanel.runtime_free">Свободное количество памяти</message>
 <message key="xmlui.administrative.ControlPanel.cocoon_head">Información de Cocoon</message>
 <message key="xmlui.administrative.ControlPanel.cocoon_version">Versión de Cocoon</message>
 <message key="xmlui.administrative.ControlPanel.cocoon_cache_dir">Directorio Cache de Cocoon</message>
@@ -1909,7 +1910,7 @@
     <message key="xmlui.statistics.StatisticsSearchTransformer.time-filter.overall">Total</message>
 
     <message key="xmlui.statistics.display.table.column-label.search-terms">Término de Búsqueda</message>                    
-    <message key="xmlui.statistics.display.table.column-label.searches">Búsquedas</message>
+    <message key="xmlui.statistics.display.table.column-label.searches">Поиск</message>
     <message key="xmlui.statistics.display.table.column-label.percent-total">% del total</message>
     <message key="xmlui.statistics.display.table.column-label.views-search">Páginas Vistas / Búsquedas</message>
     <message key="xmlui.statistics.display.table.column-label.step">Paso</message>
@@ -1951,32 +1952,32 @@
 		</a>
 		<p>
 XMLUI, una interfaz para Dspace creada por Texas A&amp;M University Libraries. 
-Para más infomación, visite 
+Для дополнительной информации посетите 
         
    <a href="http://di.tamu.edu">http://di.tamu.edu</a> y
 			<a href="http://dspace.org">http://dspace.org</a>
 		</p>
 	</message>
-<message key="xmlui.dri2xhtml.structural.contact-link">Contacto</message>
-<message key="xmlui.dri2xhtml.structural.feedback-link">Sugerencias</message>
+<message key="xmlui.dri2xhtml.structural.contact-link">Контакты</message>
+<message key="xmlui.dri2xhtml.structural.feedback-link">Отправить отзыв</message>
 
 <message key="xmlui.dri2xhtml.structural.head-subtitle">Репозиторий Dspace</message>
 
-<message key="xmlui.dri2xhtml.structural.profile">Perfil:</message>
-<message key="xmlui.dri2xhtml.structural.logout">Salir</message>
+<message key="xmlui.dri2xhtml.structural.profile">Профиль:</message>
+<message key="xmlui.dri2xhtml.structural.logout">Выйти</message>
 <message key="xmlui.dri2xhtml.structural.login">Мой DSpace</message>
 
 <message key="xmlui.dri2xhtml.structural.search">Поиск в DSpace</message>
-<message key="xmlui.dri2xhtml.structural.search-advanced">Búsqueda avanzada</message>
-<message key="xmlui.dri2xhtml.structural.search-in-community">Esta comunidad</message>
-<message key="xmlui.dri2xhtml.structural.search-in-collection">Esta colección</message>
+<message key="xmlui.dri2xhtml.structural.search-advanced">Расширенный поиск</message>
+<message key="xmlui.dri2xhtml.structural.search-in-community">В этом сообществе</message>
+<message key="xmlui.dri2xhtml.structural.search-in-collection">В этой коллекции</message>
 
-<message key="xmlui.dri2xhtml.structural.pagination-previous">Página anterior</message>
-<message key="xmlui.dri2xhtml.structural.pagination-info">Mostrando ítems {0}-{1} de {2}</message>
-<message key="xmlui.dri2xhtml.structural.pagination-next">Página siguiente</message>
+<message key="xmlui.dri2xhtml.structural.pagination-previous">Предыдущая страница</message>
+<message key="xmlui.dri2xhtml.structural.pagination-info">Отображаемые элементы {0}-{1} из {2}</message>
+<message key="xmlui.dri2xhtml.structural.pagination-next">Следующая страница</message>
 
 <message key="xmlui.dri2xhtml.structural.link_cc">Creative Commons</message>
-<message key="xmlui.dri2xhtml.structural.link_original_license">Licencia original</message>
+<message key="xmlui.dri2xhtml.structural.link_original_license">Оригинальная лицензия</message>
 
 
 	<!-- DS-METS-1.0-MODS.xsl -->
@@ -1995,12 +1996,12 @@ Puede reemplazar la plantilla que gestiona el caso general dri2xhtml para mejora
 <message key="xmlui.dri2xhtml.METS-1.0.item-preview">Предварительный просмотр</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-title">Название</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-author">Автор</message>
-<message key="xmlui.dri2xhtml.METS-1.0.item-abstract">Resumen</message>
+<message key="xmlui.dri2xhtml.METS-1.0.item-abstract">Аннотации</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-description">Описание</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-uri">URI</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-date">Дата</message>
-<message key="xmlui.dri2xhtml.METS-1.0.item-publisher">Editor</message>
-<message key="xmlui.dri2xhtml.METS-1.0.item-subject">Materia</message>
+<message key="xmlui.dri2xhtml.METS-1.0.item-publisher">Редактор</message>
+<message key="xmlui.dri2xhtml.METS-1.0.item-subject">Тематика</message>
 
 <message key="xmlui.dri2xhtml.METS-1.0.item-files-head">Ficheros en el ítem</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-files-file">Ficheros</message>
