@@ -27,7 +27,7 @@
 	<!-- General keys -->
 <message key="xmlui.general.dspace_home">Главная</message>
 <message key="xmlui.general.search">Поиск</message>
-<message key="xmlui.general.go">Перейти</message>
+<message key="xmlui.general.go">Ok</message>
 <message key="xmlui.general.go_home">На главную страницу DSpace</message>
 <message key="xmlui.general.save">Сохранить</message>
 <message key="xmlui.general.cancel">Отмена</message>
@@ -62,7 +62,7 @@
 		This section is for feed syndications (RSS, atom, etc)
 	-->
 <message key="xmlui.feed.general_description">Цифровое хранилище DSpace регистрирует, хранит, индексирует, защищает и распространяет исследовательские материалы в цифровом формате.</message>
-<message key="xmlui.feed.header">RSS Feeds</message>
+<message key="xmlui.feed.header">Потоки RSS</message>
 <message key="xmlui.feed.logo_title">Изображение</message>
 <message key="xmlui.feed.untitled">Без имени</message>
 
@@ -227,7 +227,7 @@
 <message key="xmlui.ArtifactBrowser.FeedbackForm.title">Оставить комментарий</message>
 <message key="xmlui.ArtifactBrowser.FeedbackForm.trail">Оставить комментарий</message>
 <message key="xmlui.ArtifactBrowser.FeedbackForm.head">Оставить комментарий</message>
-<message key="xmlui.ArtifactBrowser.FeedbackForm.para1">Благодарим Вас за ваш комментарий. Все комментарии будут учтены!</message>
+<message key="xmlui.ArtifactBrowser.FeedbackForm.para1">Благодарим Вас за комментарий. Все комментарии будут учтены!</message>
 <message key="xmlui.ArtifactBrowser.FeedbackForm.email">Ваш электронный адрес</message>
 <message key="xmlui.ArtifactBrowser.FeedbackForm.email_help">Данный электронный адрес будет использован для отслеживания Вашего комментария.</message>
 <message key="xmlui.ArtifactBrowser.FeedbackForm.comments">Комментарии</message>
@@ -245,7 +245,7 @@
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemViewer.java -->
 <message key="xmlui.ArtifactBrowser.ItemViewer.trail">Просмотр элемента</message>
-<message key="xmlui.ArtifactBrowser.ItemViewer.head_parent_collections">Данный элемент присутствует в следующих коллекциях</message>
+<message key="xmlui.ArtifactBrowser.ItemViewer.head_parent_collections">Данный элемент включен в следующие коллекции</message>
 <message key="xmlui.ArtifactBrowser.ItemViewer.show_simple">Показать сокращенную информацию</message>
 <message key="xmlui.ArtifactBrowser.ItemViewer.show_full">Показать полную информацию</message>
 
@@ -254,7 +254,7 @@
 	<!-- org.dspace.app.xmlui.artifactbrowser.Navigation.java -->
 <message key="xmlui.ArtifactBrowser.Navigation.head_browse">Просмотр</message>
 <message key="xmlui.ArtifactBrowser.Navigation.head_all_of_dspace">Весь DSpace</message>
-<message key="xmlui.ArtifactBrowser.Navigation.communities_and_collections">Сообщества &amp; коллекции</message>
+<message key="xmlui.ArtifactBrowser.Navigation.communities_and_collections">Сообщества и коллекции</message>
 <message key="xmlui.ArtifactBrowser.Navigation.browse_title">Названия</message>
 <message key="xmlui.ArtifactBrowser.Navigation.browse_author">Авторы</message>
 <message key="xmlui.ArtifactBrowser.Navigation.browse_subject">Тематика</message>
@@ -875,17 +875,17 @@
 	<!-- org.dspace.app.xmlui.administrative.Navigation -->
 	<!-- contextual menu items -->
 <message key="xmlui.administrative.Navigation.context_head">Contexto</message>
-<message key="xmlui.administrative.Navigation.context_edit_item">Editar este ítem</message>
-<message key="xmlui.administrative.Navigation.context_edit_collection">Editar Colección</message>
-<message key="xmlui.administrative.Navigation.context_item_mapper">Relacionador de ítems</message>
-<message key="xmlui.administrative.Navigation.context_edit_community">Editar Comunidad</message>
-<message key="xmlui.administrative.Navigation.context_create_collection">Crear colección</message>
-<message key="xmlui.administrative.Navigation.context_create_subcommunity">Crear subcomunidad</message>
-<message key="xmlui.administrative.Navigation.context_create_community">Crear comunidad</message>
-<message key="xmlui.administrative.Navigation.context_export_item">Exportar ítem</message>
-<message key="xmlui.administrative.Navigation.context_export_collection">Exportar colección</message>
-<message key="xmlui.administrative.Navigation.context_export_community">Exportar comunidad</message>
-<message key="xmlui.administrative.Navigation.context_export_metadata">Exportar metadatos</message>
+<message key="xmlui.administrative.Navigation.context_edit_item">Изменить этот документ</message>
+<message key="xmlui.administrative.Navigation.context_edit_collection">Редактировать коллекцию</message>
+<message key="xmlui.administrative.Navigation.context_item_mapper">Каталог документов</message>
+<message key="xmlui.administrative.Navigation.context_edit_community">Редактировать сообщество</message>
+<message key="xmlui.administrative.Navigation.context_create_collection">Создать коллекцию</message>
+<message key="xmlui.administrative.Navigation.context_create_subcommunity">Создать под-сообщество</message>
+<message key="xmlui.administrative.Navigation.context_create_community">Создать сообщество</message>
+<message key="xmlui.administrative.Navigation.context_export_item">Экспортировать документ</message>
+<message key="xmlui.administrative.Navigation.context_export_collection">Экспортировать коллекцию</message>
+<message key="xmlui.administrative.Navigation.context_export_community">Экспортировать сообщество</message>
+<message key="xmlui.administrative.Navigation.context_export_metadata">Экспортировать метаданные</message>
 
 	<!-- Site administrator options -->
 <message key="xmlui.administrative.Navigation.administrative_head">Администрирование</message>
@@ -893,7 +893,7 @@
 <message key="xmlui.administrative.Navigation.administrative_people">Люди</message>
 <message key="xmlui.administrative.Navigation.administrative_groups">Группы</message>
 <message key="xmlui.administrative.Navigation.administrative_authorizations">Авторизация</message>
-<message key="xmlui.administrative.Navigation.administrative_registries">Жруналы</message>
+<message key="xmlui.administrative.Navigation.administrative_registries">Журналы</message>
 <message key="xmlui.administrative.Navigation.administrative_metadata">Метаданные</message>
 <message key="xmlui.administrative.Navigation.administrative_format">Формат</message>
 <message key="xmlui.administrative.Navigation.administrative_items">Элементы</message>
@@ -901,81 +901,81 @@
 <message key="xmlui.administrative.Navigation.administrative_private">Элементы персонального доступа</message>
   <message key="xmlui.administrative.Navigation.administrative_control_panel">Панель управления</message>
 <message key="xmlui.administrative.Navigation.statistics">Статистика</message>
-<message key="xmlui.administrative.Navigation.administrative_import_metadata">Имотритровать метаданные</message>
+<message key="xmlui.administrative.Navigation.administrative_import_metadata">Импортировать метаданные</message>
 <message key="xmlui.administrative.Navigation.administrative_curation">Административное курирование</message>
 
     <!-- my account items -->
 <message key="xmlui.administrative.Navigation.account_export">Мой экспорт</message>
 
 	<!-- export item -->
-<message key="xmlui.administrative.ItemExport.head">Exportar Archivo  </message>
-<message key="xmlui.administrative.ItemExport.item.id.error">El código del ítem que ha introducido no es válido.</message>
-<message key="xmlui.administrative.ItemExport.collection.id.error">El identificador de la colección que ha introducido no es válido.</message>
-<message key="xmlui.administrative.ItemExport.community.id.error">El código de la comunidad que ha introducido no es válido.</message>
-<message key="xmlui.administrative.ItemExport.item.not.found">No se ha encontrado el ítem solicitado.</message>
-<message key="xmlui.administrative.ItemExport.collection.not.found">No se ha encontrado la colección solicitada.</message>
-<message key="xmlui.administrative.ItemExport.community.not.found">No se ha encontrado la comunidad solicitada.</message>
-<message key="xmlui.administrative.ItemExport.item.success">Se ha exportado correctamente el ítem. Recibirá un correo electrónico cuando el archivo esté listo  para la descarga.  Puede usar asímismo el  enlace  'Mis Exportaciones' para ver los archivos disponibles.</message>
-<message key="xmlui.administrative.ItemExport.collection.success">La colección se ha exportado satisfactoriamente. Deberá recibir un mensaje de correo electrónico cuando el archivo esté listo para descargar. También puede utilizar el enlace "Mis exportaciones" para ver una lista de los archivos que están a su disposición.</message>
-<message key="xmlui.administrative.ItemExport.community.success">La comunidad se ha exportado satisfactoriamente. Deberá recibir un mensaje de correo electrónico cuando el archivo esté listo para descargar. También puede utilizar el enlace "Mis exportaciones" para ver una lista de los archivos que están a su disposición.</message>
-<message key="xmlui.administrative.ItemExport.available.head">Archivos de exportación disponibles para descargar:</message>
+<message key="xmlui.administrative.ItemExport.head">Экспортировать архив</message>
+<message key="xmlui.administrative.ItemExport.item.id.error">Неверный код документа</message>
+<message key="xmlui.administrative.ItemExport.collection.id.error">Неверный код коллекции.</message>
+<message key="xmlui.administrative.ItemExport.community.id.error">Неверный код сообщества.</message>
+<message key="xmlui.administrative.ItemExport.item.not.found">Запрашиваемый документ не найден.</message>
+<message key="xmlui.administrative.ItemExport.collection.not.found">Запрашиваемая коллекция не найдена.</message>
+<message key="xmlui.administrative.ItemExport.community.not.found">Запрашиваемыое сообщество не найдено.</message>
+<message key="xmlui.administrative.ItemExport.item.success">Документ успешно экспортирован. Элемент успешно экспортирован. На Ваш электронный адрес будет отправлено письмо, когда архив будет доступен для загрузки. Вы также може использовать ссылку Мой экспорт, чтобы посмотреть список доступных архивов.</message>
+<message key="xmlui.administrative.ItemExport.collection.success">Коллекция успешно экспортирована. На Ваш электронный адрес будет отправлено письмо, когда архив будет доступен для загрузки. Вы также може использовать ссылку Мой экспорт, чтобы посмотреть список доступных архивов.</message>
+<message key="xmlui.administrative.ItemExport.community.success">Сообщество успешно экспортировано. На Ваш электронный адрес будет отправлено письмо, когда архив будет доступен для загрузки. Вы также може использовать ссылку Мой экспорт, чтобы посмотреть список доступных архивов.</message>
+<message key="xmlui.administrative.ItemExport.available.head">Архивы, доступные для скачивания:</message>
 
     <!-- org.dspace.app.xmlui.administrative.eperson.ManageEPeopleMain -->
-<message key="xmlui.administrative.eperson.ManageEPeopleMain.title">Administrar usuarios</message>
-<message key="xmlui.administrative.eperson.ManageEPeopleMain.main_head">Gestión de usuarios</message>
-<message key="xmlui.administrative.eperson.ManageEPeopleMain.actions_head">Acciones</message>
-<message key="xmlui.administrative.eperson.ManageEPeopleMain.actions_create">Crear un nuevo usuario</message>
-<message key="xmlui.administrative.eperson.ManageEPeopleMain.actions_create_link">Pulse aquí para añadir un nuevo usuario.</message>
-<message key="xmlui.administrative.eperson.ManageEPeopleMain.actions_browse">Listar usuarios</message>
-<message key="xmlui.administrative.eperson.ManageEPeopleMain.actions_browse_link">Pulse aquí para listar todos los usuarios.</message>
-<message key="xmlui.administrative.eperson.ManageEPeopleMain.actions_search">Buscar usuarios</message>
-<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_help">Los usuarios se buscan por coincidencia parcial de correo electrónico o nombre</message>
-<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_para1">Debajo figura la lista de usuarios que coincide con su patrón de búsqueda. Elija la que quiere borrar y pulse el botón Borrar para continuar o pulse sobre la dirección de correo electrónico o el nombre de un usuario para editarlos.</message>
-<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_head">Resultados de la búsqueda</message>
+<message key="xmlui.administrative.eperson.ManageEPeopleMain.title">Управление пользователями</message>
+<message key="xmlui.administrative.eperson.ManageEPeopleMain.main_head">Управление пользователями</message>
+<message key="xmlui.administrative.eperson.ManageEPeopleMain.actions_head">Действия</message>
+<message key="xmlui.administrative.eperson.ManageEPeopleMain.actions_create">Создать нового пользователя</message>
+<message key="xmlui.administrative.eperson.ManageEPeopleMain.actions_create_link">Нажмите здесь, для создания нового пользователя.</message>
+<message key="xmlui.administrative.eperson.ManageEPeopleMain.actions_browse">Обзор пользователей</message>
+<message key="xmlui.administrative.eperson.ManageEPeopleMain.actions_browse_link">Нажмите здесь, чтобы посмотреть всех пользователей.</message>
+<message key="xmlui.administrative.eperson.ManageEPeopleMain.actions_search">Поиск пользователей</message>
+<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_help">Поиск производится по имени и e-mail адресу</message>
+<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_para1">Пользователи, отвечающие условиям запроса. Выберите пользователя, которого хотите удалить и нажмите кнопку "удалить" или нажмите на имя или e-mail пользователя для редактирования.</message>
+<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_head">Результаты поиска</message>
 <message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column1"></message>
 <message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column2">ID</message>
-<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column3">Nombre</message>
-<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column4">Correo electrónico</message>
-<message key="xmlui.administrative.eperson.ManageEPeopleMain.submit_delete">Borrar usuarios</message>
-<message key="xmlui.administrative.eperson.ManageEPeopleMain.no_results">Su búsqueda no produjo ningún resultado...</message>
+<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column3">Имя</message>
+<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column4">Е-mail адрес</message>
+<message key="xmlui.administrative.eperson.ManageEPeopleMain.submit_delete">Удалить пользователей</message>
+<message key="xmlui.administrative.eperson.ManageEPeopleMain.no_results">Поиск не дал результатов...</message>
 
 	<!-- org.dspace.app.xmlui.administrative.eperson.AddEPersonForm -->
-<message key="xmlui.administrative.eperson.AddEPersonForm.title">Añadir usuario</message>
-<message key="xmlui.administrative.eperson.AddEPersonForm.trail">Añadir usuario</message>
-<message key="xmlui.administrative.eperson.AddEPersonForm.head1">Crear un nuevo usuario</message>
-<message key="xmlui.administrative.eperson.AddEPersonForm.email_taken">Esta dirección de correo electrónico está siendo usada por otra persona. La dirección de correo electrónico debe ser única.</message>
-<message key="xmlui.administrative.eperson.AddEPersonForm.head2">Información del nuevo usuario:</message>
-<message key="xmlui.administrative.eperson.AddEPersonForm.error_email_unique">La dirección de correo electrónico debe ser única</message>
-<message key="xmlui.administrative.eperson.AddEPersonForm.error_email">Se require una dirección de correo electrónico</message>
-<message key="xmlui.administrative.eperson.AddEPersonForm.error_fname">El nombre es un dato obligatorio</message>
-<message key="xmlui.administrative.eperson.AddEPersonForm.error_lname">El apellido es un dato obligatorio</message>
-<message key="xmlui.administrative.eperson.AddEPersonForm.req_certs">Necesita certificado</message>
-<message key="xmlui.administrative.eperson.AddEPersonForm.can_log_in">Puede acceder</message>
-<message key="xmlui.administrative.eperson.AddEPersonForm.submit_create">Crear usuario</message>
+<message key="xmlui.administrative.eperson.AddEPersonForm.title">Добавить пользователя</message>
+<message key="xmlui.administrative.eperson.AddEPersonForm.trail">Добавить пользователя</message>
+<message key="xmlui.administrative.eperson.AddEPersonForm.head1">Создать нового пользователя</message>
+<message key="xmlui.administrative.eperson.AddEPersonForm.email_taken">Этот адрес электронной почты уже используется.</message>
+<message key="xmlui.administrative.eperson.AddEPersonForm.head2">Данные нового пользователя:</message>
+<message key="xmlui.administrative.eperson.AddEPersonForm.error_email_unique">E-mail адрес должен быть уникален</message>
+<message key="xmlui.administrative.eperson.AddEPersonForm.error_email">Введите адрес электронной почты</message>
+<message key="xmlui.administrative.eperson.AddEPersonForm.error_fname">Необходимо заполнить поле Имя</message>
+<message key="xmlui.administrative.eperson.AddEPersonForm.error_lname">Необходимо заполнить поле Фамилия</message>
+<message key="xmlui.administrative.eperson.AddEPersonForm.req_certs">Необходим сертификат</message>
+<message key="xmlui.administrative.eperson.AddEPersonForm.can_log_in">Можете войти в систему</message>
+<message key="xmlui.administrative.eperson.AddEPersonForm.submit_create">Создать пользователя</message>
 
 	<!-- org.dspace.app.xmlui.administrative.eperson.EditEPersonForm -->
-<message key="xmlui.administrative.eperson.EditEPersonForm.title">Editar usuario</message>
-<message key="xmlui.administrative.eperson.EditEPersonForm.trail">Editar usuario</message>
-<message key="xmlui.administrative.eperson.EditEPersonForm.head1">Editar un usuario</message>
-<message key="xmlui.administrative.eperson.EditEPersonForm.email_taken">Esta dirección de correo electrónico está siendo usada por otra persona. La dirección de correo electrónico debe ser única.</message>
-<message key="xmlui.administrative.eperson.EditEPersonForm.head2">Información de {0}:</message>
-<message key="xmlui.administrative.eperson.EditEPersonForm.error_email_unique">La dirección de correo electrónico debe ser única</message>
-<message key="xmlui.administrative.eperson.EditEPersonForm.error_email">Se require una dirección de correo electrónico</message>
-<message key="xmlui.administrative.eperson.EditEPersonForm.error_fname">El nombre es un dato obligatorio</message>
-<message key="xmlui.administrative.eperson.EditEPersonForm.error_lname">El apellido es un dato obligatorio</message>
-<message key="xmlui.administrative.eperson.EditEPersonForm.req_certs">Necesita certificado</message>
-<message key="xmlui.administrative.eperson.EditEPersonForm.can_log_in">Puede acceder</message>
-<message key="xmlui.administrative.eperson.EditEPersonForm.submit_reset_password">Restablecer contraseña</message>
-<message key="xmlui.administrative.eperson.EditEPersonForm.special_help">También puede borrar permanentemente a este usuario del sistema o restablecer su contraseña. Cuando regenera una contraseña, el usuario recibirá un mensaje que contiene un enlace especial que puede seguir para asignar una nueva contraseña.</message>
-<message key="xmlui.administrative.eperson.EditEPersonForm.submit_delete">Borrar usuario</message>
-<message key="xmlui.administrative.eperson.EditEPersonForm.submit_login_as">Acceder como usuario</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.title">Редактировать пользователя</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.trail">Редактировать пользователя</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.head1">Редактировать пользователя</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.email_taken">Этот адрес электронной почты уже используется.</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.head2">Информация {0}:</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.error_email_unique">E-mail адрес должен быть уникален</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.error_email">Введите адрес электронной почты</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.error_fname">Необходимо заполнить поле Имя</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.error_lname">Необходимо заполнить поле Фамилия</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.req_certs">Необходим сертификат</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.can_log_in">Можете войти в систему</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.submit_reset_password">Восстановление пароля</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.special_help">Вы также можете удалить этого пользователя из системы или восстановить его пароль. В случае восстановления пароля пользователь получит письмо с инструкцией и ссылкой, пройдя по которой он сможет создать новый пароль.</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.submit_delete">Удалить пользователя</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.submit_login_as">Войти как пользователь</message>
 
-<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint">No se puede borrar este usuario debido a las siguientes restricciones:</message>
-<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.last_conjunction">y</message>
-<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.item">el usuario ha enviado uno o más ítems</message>
-<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.workflowitem">el usuario tiene un envío de flujo de trabajo activo</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint">Пользователь не может быть удалён ввиду следующих ограничений:</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.last_conjunction">и</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.item">пользователь загрузил один или более документ</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.workflowitem">у пользователь ещё не завершил отправку документа</message>
 <message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.tasklistitem">el usuario tiene una tarea de flujo de trabajo por atender</message>
-<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.unknown">el usuario tiene una restricción sin identificar en el sistema</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.unknown">ограничение не распознано системой</message>
 
 <message key="xmlui.administrative.eperson.EditEPersonForm.member_head">Este usuario pertenece a los grupos:</message>
 <message key="xmlui.administrative.eperson.EditEPersonForm.indirect_member">(por el grupo: {0})</message>
@@ -992,108 +992,108 @@
 <message key="xmlui.administrative.eperson.DeleteEPeopleConfirm.head_email">Correo electrónico</message>
 
 	<!-- general items for all of the group classes -->
-<message key="xmlui.administrative.group.general.group_trail">Administrar grupos</message>
+<message key="xmlui.administrative.group.general.group_trail">Управление группами</message>
 
 	<!-- org.dspace.app.xmlui.administrative.group.ManageGroupsMain -->
-<message key="xmlui.administrative.group.ManageGroupsMain.title">Administrar grupos</message>
-<message key="xmlui.administrative.group.ManageGroupsMain.main_head">Gestión de grupos</message>
-<message key="xmlui.administrative.group.ManageGroupsMain.actions_head">Acciones</message>
-<message key="xmlui.administrative.group.ManageGroupsMain.actions_create">Crear un nuevo grupo</message>
-<message key="xmlui.administrative.group.ManageGroupsMain.actions_create_link">Pulse aquí para añadir un grupo nuevo.</message>
-<message key="xmlui.administrative.group.ManageGroupsMain.actions_browse">Listar grupos</message>
-<message key="xmlui.administrative.group.ManageGroupsMain.actions_browse_link">Pulse aquí para listar todos los grupos.</message>
-<message key="xmlui.administrative.group.ManageGroupsMain.actions_search">Buscar grupos</message>
-<message key="xmlui.administrative.group.ManageGroupsMain.search_help">Los grupos se buscan por coincidencia parcial del nombre</message>
-<message key="xmlui.administrative.group.ManageGroupsMain.search_head">Resultados de la búsqueda</message>
+<message key="xmlui.administrative.group.ManageGroupsMain.title">Управление группами</message>
+<message key="xmlui.administrative.group.ManageGroupsMain.main_head">Управление группами</message>
+<message key="xmlui.administrative.group.ManageGroupsMain.actions_head">Действия</message>
+<message key="xmlui.administrative.group.ManageGroupsMain.actions_create">Создать новую группу</message>
+<message key="xmlui.administrative.group.ManageGroupsMain.actions_create_link">Нажмите здесь для создания новой группы.</message>
+<message key="xmlui.administrative.group.ManageGroupsMain.actions_browse">Обзор групп</message>
+<message key="xmlui.administrative.group.ManageGroupsMain.actions_browse_link">Нажмите здесь для просмотра всех групп.</message>
+<message key="xmlui.administrative.group.ManageGroupsMain.actions_search">Поиск групп</message>
+<message key="xmlui.administrative.group.ManageGroupsMain.search_help">Поиск осуществляется по названию группы</message>
+<message key="xmlui.administrative.group.ManageGroupsMain.search_head">Результаты поиска</message>
 <message key="xmlui.administrative.group.ManageGroupsMain.search_column1"></message>
 <message key="xmlui.administrative.group.ManageGroupsMain.search_column2">ID</message>
-<message key="xmlui.administrative.group.ManageGroupsMain.search_column3">Nombre</message>
-<message key="xmlui.administrative.group.ManageGroupsMain.search_column4">Miembros</message>
-<message key="xmlui.administrative.group.ManageGroupsMain.search_column5">Comunidad / Colección</message>
-<message key="xmlui.administrative.group.ManageGroupsMain.collection_link">Ver</message>
-<message key="xmlui.administrative.group.ManageGroupsMain.submit_delete">Borrar grupos</message>
-<message key="xmlui.administrative.group.ManageGroupsMain.no_results">Su búsqueda no produjo ningún resultado...</message>
+<message key="xmlui.administrative.group.ManageGroupsMain.search_column3">Название</message>
+<message key="xmlui.administrative.group.ManageGroupsMain.search_column4">Участники</message>
+<message key="xmlui.administrative.group.ManageGroupsMain.search_column5">Сообщество / Коллекция</message>
+<message key="xmlui.administrative.group.ManageGroupsMain.collection_link">Просмотр</message>
+<message key="xmlui.administrative.group.ManageGroupsMain.submit_delete">Удаление групп</message>
+<message key="xmlui.administrative.group.ManageGroupsMain.no_results">Поиск не дал результатов...</message>
 
 	<!-- org.dspace.app.xmlui.administrative.group.EditGroupForm -->
-<message key="xmlui.administrative.group.EditGroupForm.title">Editor de grupos</message>
-<message key="xmlui.administrative.group.EditGroupForm.trail">Editar grupo</message>
-<message key="xmlui.administrative.group.EditGroupForm.main_head">Editor de grupos: {0} (id: {1})</message>
-<message key="xmlui.administrative.group.EditGroupForm.main_head_new">Editor de grupos: nuevo grupo</message>
-<message key="xmlui.administrative.group.EditGroupForm.submit_clear">Limpiar la búsqueda</message>
-<message key="xmlui.administrative.group.EditGroupForm.member">Miembro</message>
-<message key="xmlui.administrative.group.EditGroupForm.cycle">Ciclo</message>
-<message key="xmlui.administrative.group.EditGroupForm.pending">Pendiente</message>
-<message key="xmlui.administrative.group.EditGroupForm.pending_warn">Nota: los cambios pendientes no se guardan hasta que pulsa el botón de guardar.</message>
-<message key="xmlui.administrative.group.EditGroupForm.submit_add">Añadir</message>
-<message key="xmlui.administrative.group.EditGroupForm.submit_remove">Eliminar </message>
-<message key="xmlui.administrative.group.EditGroupForm.collection_para">Este grupo está asociado con la colección:</message>
-<message key="xmlui.administrative.group.EditGroupForm.community_para">Este grupo está asociado con la comunidad: </message>
-<message key="xmlui.administrative.group.EditGroupForm.label_name">Cambiar el nombre del grupo:</message>
-<message key="xmlui.administrative.group.EditGroupForm.label_instructions">Este grupo está asociado con una colección específica y el nombre no puede ser modificado.</message>
-<message key="xmlui.administrative.group.EditGroupForm.label_search">Buscar miembros para añadir:</message>
-<message key="xmlui.administrative.group.EditGroupForm.submit_search_people">Usuarios...</message>
-<message key="xmlui.administrative.group.EditGroupForm.submit_search_groups">Grupos...</message>
-<message key="xmlui.administrative.group.EditGroupForm.no_results">Su búsqueda no produjo ningún resultado...</message>
+<message key="xmlui.administrative.group.EditGroupForm.title">Редактор групп</message>
+<message key="xmlui.administrative.group.EditGroupForm.trail">Редактировать группу</message>
+<message key="xmlui.administrative.group.EditGroupForm.main_head">Редактор групп: {0} (id: {1})</message>
+<message key="xmlui.administrative.group.EditGroupForm.main_head_new">Редактор групп: новая группа</message>
+<message key="xmlui.administrative.group.EditGroupForm.submit_clear">Очистить поиск</message>
+<message key="xmlui.administrative.group.EditGroupForm.member">Участники</message>
+<message key="xmlui.administrative.group.EditGroupForm.cycle">Цикл</message>
+<message key="xmlui.administrative.group.EditGroupForm.pending">В ожидании</message>
+<message key="xmlui.administrative.group.EditGroupForm.pending_warn">Внимание: внесенные изменения не будут сохранены, пока Вы не нажмёте Сохранить.</message>
+<message key="xmlui.administrative.group.EditGroupForm.submit_add">Добавить</message>
+<message key="xmlui.administrative.group.EditGroupForm.submit_remove">Удалить </message>
+<message key="xmlui.administrative.group.EditGroupForm.collection_para">Связать группу с коллекцией:</message>
+<message key="xmlui.administrative.group.EditGroupForm.community_para">Связать группу с сообществом: </message>
+<message key="xmlui.administrative.group.EditGroupForm.label_name">Изменить название группы:</message>
+<message key="xmlui.administrative.group.EditGroupForm.label_instructions">Данная группа связанна с определённой коллекцией и её название не может быть изменено.</message>
+<message key="xmlui.administrative.group.EditGroupForm.label_search">ПОиск и добавление пользователей:</message>
+<message key="xmlui.administrative.group.EditGroupForm.submit_search_people">Пользователи...</message>
+<message key="xmlui.administrative.group.EditGroupForm.submit_search_groups">Группы...</message>
+<message key="xmlui.administrative.group.EditGroupForm.no_results">Поиск не дал результатов...</message>
 <message key="xmlui.administrative.group.EditGroupForm.epeople_column1">ID</message>
-<message key="xmlui.administrative.group.EditGroupForm.epeople_column2">Nombre</message>
-<message key="xmlui.administrative.group.EditGroupForm.epeople_column3">Correo electrónico</message>
+<message key="xmlui.administrative.group.EditGroupForm.epeople_column2">Имя</message>
+<message key="xmlui.administrative.group.EditGroupForm.epeople_column3">Электронный адрес</message>
 <message key="xmlui.administrative.group.EditGroupForm.epeople_column4"></message>
 <message key="xmlui.administrative.group.EditGroupForm.groups_column1">ID</message>
-<message key="xmlui.administrative.group.EditGroupForm.groups_column2">Nombre</message>
-<message key="xmlui.administrative.group.EditGroupForm.groups_column3">Miembros</message>
-<message key="xmlui.administrative.group.EditGroupForm.groups_column4">Colección</message>
+<message key="xmlui.administrative.group.EditGroupForm.groups_column2">Название</message>
+<message key="xmlui.administrative.group.EditGroupForm.groups_column4">Коллекция</message>
+<message key="xmlui.administrative.group.EditGroupForm.groups_column3">Участники</message>
 <message key="xmlui.administrative.group.EditGroupForm.groups_column5"></message>
-<message key="xmlui.administrative.group.ManageGroupsMain.groups_collection_link">ver</message>
-<message key="xmlui.administrative.group.EditGroupForm.members_head">Miembros</message>
+<message key="xmlui.administrative.group.ManageGroupsMain.groups_collection_link">просмотр</message>
+<message key="xmlui.administrative.group.EditGroupForm.members_head">Участники</message>
 <message key="xmlui.administrative.group.EditGroupForm.members_column1">ID</message>
-<message key="xmlui.administrative.group.EditGroupForm.members_column2">Nombre</message>
-<message key="xmlui.administrative.group.EditGroupForm.members_column3">Correo electrónico</message>
+<message key="xmlui.administrative.group.EditGroupForm.members_column2">Имя</message>
+<message key="xmlui.administrative.group.EditGroupForm.members_column3">Электронный адрес</message>
 <message key="xmlui.administrative.group.EditGroupForm.members_column4"></message>
-<message key="xmlui.administrative.group.EditGroupForm.members_group_name">grupo: {0}</message>
-<message key="xmlui.administrative.group.EditGroupForm.members_none">Este grupo no tiene ningún miembro.</message>
-<message key="xmlui.administrative.group.EditGroupForm.members_pending">[pendiente]</message>
-<message key="xmlui.administrative.group.EditGroupForm.instructions_para">Eliminar miembros</message>
-<message key="xmlui.administrative.group.EditGroupForm.collection_link_para">Eliminar miembros</message>
+<message key="xmlui.administrative.group.EditGroupForm.members_group_name">группа: {0}</message>
+<message key="xmlui.administrative.group.EditGroupForm.members_none">В данной группе никто не состоит.</message>
+<message key="xmlui.administrative.group.EditGroupForm.members_pending">[в ожидании]</message>
+<message key="xmlui.administrative.group.EditGroupForm.instructions_para">Удалить участников</message>
+<message key="xmlui.administrative.group.EditGroupForm.collection_link_para">Удалить участников</message>
 
 	<!-- org.dspace.app.xmlui.administrative.group.DeleteGroupsConfirm -->
-<message key="xmlui.administrative.group.DeleteGroupsConfirm.title">Confirmar borrado de grupo</message>
-<message key="xmlui.administrative.group.DeleteGroupsConfirm.trail">Confirmar borrado</message>
-<message key="xmlui.administrative.group.DeleteGroupsConfirm.head">Confirmar borrado</message>
-<message key="xmlui.administrative.group.DeleteGroupsConfirm.para">Los siguientes grupos serán borrados:</message>
+<message key="xmlui.administrative.group.DeleteGroupsConfirm.title">Подтвердить удаление группы</message>
+<message key="xmlui.administrative.group.DeleteGroupsConfirm.trail">Подтвердить удаление </message>
+<message key="xmlui.administrative.group.DeleteGroupsConfirm.head">Подтвердить удаление</message>
+<message key="xmlui.administrative.group.DeleteGroupsConfirm.para">Будут удалены следующие группы:</message>
 <message key="xmlui.administrative.group.DeleteGroupsConfirm.column1">ID</message>
-<message key="xmlui.administrative.group.DeleteGroupsConfirm.column2">Nombre</message>
-<message key="xmlui.administrative.group.DeleteGroupsConfirm.column3">Usuarios</message>
-<message key="xmlui.administrative.group.DeleteGroupsConfirm.column4">Grupos</message>
+<message key="xmlui.administrative.group.DeleteGroupsConfirm.column2">Название</message>
+<message key="xmlui.administrative.group.DeleteGroupsConfirm.column3">Пользователи</message>
+<message key="xmlui.administrative.group.DeleteGroupsConfirm.column4">Группы</message>
 
 	<!-- general items for all of the registries classes -->
-<message key="xmlui.administrative.registries.general.format_registry_trail">Registro de Formatos</message>
-<message key="xmlui.administrative.registries.general.metadata_registry_trail">Registro de Metadatos</message>
+<message key="xmlui.administrative.registries.general.format_registry_trail">Регистр форматов</message>
+<message key="xmlui.administrative.registries.general.metadata_registry_trail">Регистр метаданных</message>
 
 	<!-- org.dspace.app.xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.java -->
-<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.title">Borrar formatos de archivo</message>
-<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.trail">Borrar formatos del archivo</message>
-<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.head">Confirmar borrado</message>
-<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.para1">¿Está seguro/a de borrar este formato? Cualquier archivo existente con este formato será asociado al formato desconocido.</message>
+<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.title">Удалить форматы архива</message>
+<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.trail">Удалить форматы архива</message>
+<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.head">Подтвердить удаление</message>
+<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.para1">Вы уверены, что хотите удалить данный формат? Все файлы этих форматов будут считаться файлами неизвестного формата.</message>
 <message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.column1">ID</message>
-<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.column2">Tipo MIME</message>
-<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.column3">Nombre</message>
+<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.column2">Тип MIME</message>
+<message key="xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.column3">Название</message>
 
 	<!-- org.dspace.app.xmlui.administrative.registries.DeleteMetadataFieldsConfirm.java -->
-<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.title">Borrar campos</message>
-<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.trail">Borrar campos</message>
-<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.head">Confirmar borrado</message>
-<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.para1">¿Está <b>absolutamente</b> seguro/a de querer borrar estos campos? Si algún ítem contiene metadatos en estos campos, se producirá un error advirtiéndole de fallo en el borrado. Debe asegurarse de que no hay ítems en el sistema que utilicen estos campos.</message>
-<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.warning">AVISO:</message>
-<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.para2">Esto producirá un error si algún ítem contiene metadatos en estos campos.</message>
+<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.title">Удалить поля</message>
+<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.trail">Удалить поля</message>
+<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.head">Подтвердить удаление</message>
+<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.para1">Вы <b>действительно</b> уверены, что хотите удалить эти поля? Если существуют элементы, содержащие метаданные для этих полей, то поля не будут удалены.</message>
+<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.warning">ПРЕДУПРЕЖДЕНИЕ:</message>
+<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.para2">Если какой-либо документ содержит метаданные этих полей, их удаление прведёт к появлению ошибки.</message>
 <message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.column1">ID</message>
-<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.column2">Nombre</message>
-<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.column3">Nota de alcance</message>
+<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.column2">Имя</message>
+<message key="xmlui.administrative.registries.DeleteMetadataFieldsConfirm.column3">Ограничительная помета</message>
 
 	<!-- org.dspace.app.xmlui.administrative.registries.DeleteMetadataSchemaConfirm.java-->
-<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.title">Borrado Esquema</message>
-<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.trail">Borrado Esquema</message>
-<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.head">Confirmar borrado</message>
-<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para1">¿Está <b>absolutamente</b> seguro/a de querer borrar este esquema? Si algún ítem contiene metadatos los campos contenidos en este esquema, se producirá un error advirtiéndole del fallo en el borrado. Debe asegurarse de que no hay ítems en el sistema que utilicen campos contenidos en este esquema.</message>
+<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.title">Удаление схемы</message>
+<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.trail">Удаление схемы</message>
+<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.head">Подтвердить удаление</message>
+<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para1">Вы <b>действительно</b> уверены, что хотите удалить эту схему? Если существуют элементы, содержащие метаданные для полей из этой схемы, то схема не будет удалена и система предупредит Вас об шибке. Убедитесь, что данная схема не используется ни в одном из полей.</message>
 <message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.warning">AVISO:</message>
 <message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para2">Esto producirá un error si algún ítem contiene metadatos en cualquiera de los campos del esquema.</message>
 <message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.column1">ID</message>
@@ -1197,7 +1197,7 @@
 
 	<!-- general authorization keywords -->
 <message key="xmlui.administrative.authorization.general.authorize_trail">Авторизация</message>
-<message key="xmlui.administrative.authorization.general.policyList_trail">Lista de privilegios</message>
+<message key="xmlui.administrative.authorization.general.policyList_trail">Список привилегий</message>
 
 	<!-- org.dspace.app.xmlui.administrative.authorization.AuthorizationMain -->
 <message key="xmlui.administrative.authorization.AuthorizationMain.title">Administrar privilegios de autorización</message>
@@ -1289,34 +1289,34 @@
 <message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.submit_remove_all">Limpiar privilegios</message>
     <message key="xmlui.administrative.authorization.AdvacedAuthorizationsForm.label_date_help">Formatos aceptados: yyyy, yyyy-mm, yyyy-mm-dd</message>
 
-    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_name">Nombre</message>
-    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_description">Descripción</message>
+    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_name">Название</message>
+    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_description">Описание</message>
     <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_start_date">Дата начала</message>
     <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.actions_end_date">Дата окончания</message>
     <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.error_date_format">Неверная дата</message>
     <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.error_start_date_greater_than_end_date">Fecha de comienzo posterior a fecha de finalización</message>
-    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.error_groupIds">Seleccione al menos un grupo</message>
-    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.error_collectionIds">Seleccione al menos una colección</message>
+    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.error_groupIds">Выберите как минимум одну группу</message>
+    <message key="xmlui.administrative.authorization.AdvancedAuthorizationsForm.error_collectionIds">Выберите как минимум одну коллекцию</message>
     
     	<!-- org.dspace.app.xmlui.administrative.authorization.DeletePoliciesConfirm -->
-<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.title">Confirmar borrado de privilegios</message>
+<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.title">Подтвердите удаление привилегий</message>
 <message key="xmlui.administrative.authorization.DeletePoliciesConfirm.trail">Подтвердить удаление</message>
 <message key="xmlui.administrative.authorization.DeletePoliciesConfirm.confirm_head">Подтвердить удаление</message>
 <message key="xmlui.administrative.authorization.DeletePoliciesConfirm.confirm_para">Los siguientes privilegios serán eliminados:</message>
 <message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_id">ID</message>
-<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_action">Acción</message>
+<message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_action">Действие</message>
 <message key="xmlui.administrative.authorization.DeletePoliciesConfirm.head_group">Группа</message>
 
 	<!-- general edit item messages -->
-<message key="xmlui.administrative.item.general.item_trail">Ítems</message>
+<message key="xmlui.administrative.item.general.item_trail">Документы</message>
 <message key="xmlui.administrative.item.general.template_head">Editar plantilla de ítem para la Colección: {0}</message>
-<message key="xmlui.administrative.item.general.option_head">Editar ítem</message>
-<message key="xmlui.administrative.item.general.option_status">Estado del ítem</message>
-<message key="xmlui.administrative.item.general.option_bitstreams">Archivos del ítem</message>
-<message key="xmlui.administrative.item.general.option_metadata">Metadatos del ítem</message>
-<message key="xmlui.administrative.item.general.option_view">Ver ítem</message>
-<message key="xmlui.administrative.item.general.option_curate">Curar</message>
-<message key="xmlui.administrative.item.general.option_queue">Encolar</message>
+<message key="xmlui.administrative.item.general.option_head">Редактирование документа</message>
+<message key="xmlui.administrative.item.general.option_status">Состояние документа</message>
+<message key="xmlui.administrative.item.general.option_bitstreams">Архивы документа</message>
+<message key="xmlui.administrative.item.general.option_metadata">Метаданные документа</message>
+<message key="xmlui.administrative.item.general.option_view">Просмотр документа</message>
+<message key="xmlui.administrative.item.general.option_curate">Курировать</message>
+<message key="xmlui.administrative.item.general.option_queue">Поставить в очередь</message>
 
 	<!-- org.dspace.app.xmlui.administrative.item.AddBitstreamForm -->
 <message key="xmlui.administrative.item.AddBitstreamForm.title">Загрузить архив</message>
@@ -1360,25 +1360,25 @@
     <message key="xmlui.administrative.item.ConfirmItemForm.submit_public">Hacerlo Público</message>
 
     <!-- org.dspace.app.xmlui.aspect.administrative.item.MoveItemForm -->
-<message key="xmlui.administrative.item.MoveItemForm.title">Mover</message>
-<message key="xmlui.administrative.item.MoveItemForm.trail">Mover</message>
-<message key="xmlui.administrative.item.MoveItemForm.head1">Mover ítem: {0}</message>
-<message key="xmlui.administrative.item.MoveItemForm.collection">Colección</message>
-<message key="xmlui.administrative.item.MoveItemForm.collection_help">Seleccione la colección a la cual desea mover el ítem.</message>
-<message key="xmlui.administrative.item.MoveItemForm.collection_default">Seleccione una colección...</message>
-<message key="xmlui.administrative.item.MoveItemForm.submit_move">Mover</message>
+<message key="xmlui.administrative.item.MoveItemForm.title">Переместить</message>
+<message key="xmlui.administrative.item.MoveItemForm.trail">Переместить</message>
+<message key="xmlui.administrative.item.MoveItemForm.head1">Переместить документ: {0}</message>
+<message key="xmlui.administrative.item.MoveItemForm.collection">Коллекция</message>
+<message key="xmlui.administrative.item.MoveItemForm.collection_help">Выберите коллекцию, в которую желаете переместить файл.</message>
+<message key="xmlui.administrative.item.MoveItemForm.collection_default">Выберите коллекцию...</message>
+<message key="xmlui.administrative.item.MoveItemForm.submit_move">Переместить</message>
 <message key="xmlui.administrative.item.MoveItemForm.inherit_policies">Heredar privilegios</message>
 <message key="xmlui.administrative.item.MoveItemForm.inherit_policies_help">Heredar los privilegios por defecto de la colección destino</message>
 
 	<!-- org.dspace.app.xmlui.administrative.item.EditBitstreamForm -->
-<message key="xmlui.administrative.item.EditBitstreamForm.title">Editar archivo</message>
-<message key="xmlui.administrative.item.EditBitstreamForm.trail">Editar archivo</message>
-<message key="xmlui.administrative.item.EditBitstreamForm.head1">Editar archivo</message>
+<message key="xmlui.administrative.item.EditBitstreamForm.title">Редактировать архив</message>
+<message key="xmlui.administrative.item.EditBitstreamForm.trail">Редактировать архив</message>
+<message key="xmlui.administrative.item.EditBitstreamForm.head1">Редактировать архив</message>
 <message key="xmlui.administrative.item.EditBitstreamForm.file_label">Fichero</message>
-<message key="xmlui.administrative.item.EditBitstreamForm.primary_label">Archivo principal</message>
+<message key="xmlui.administrative.item.EditBitstreamForm.primary_label">Основной архив</message>
 <message key="xmlui.administrative.item.EditBitstreamForm.primary_option_yes">Да</message>
 <message key="xmlui.administrative.item.EditBitstreamForm.primary_option_no">Нет</message>
-<message key="xmlui.administrative.item.EditBitstreamForm.description_label">Descripción</message>
+<message key="xmlui.administrative.item.EditBitstreamForm.description_label">Описание</message>
 <message key="xmlui.administrative.item.EditBitstreamForm.description_help">Si lo desea, puede describir brevemente el contenido de este fichero, por ejemplo "<i>Artículo principal</i>", o "<i>Lectura de los datos del documento</i>".</message>
 <message key="xmlui.administrative.item.EditBitstreamForm.para1">Seleccione en la lista el formato del archivo, por ejemplo "<i>Adobe PDF</i>" o "<i>Microsoft Word</i>", <b>O</b> si el formato no está en la lista, por favor, describa el formato del archivo en la casilla bajo la lista.</message>
 <message key="xmlui.administrative.item.EditBitstreamForm.format_label">Formato elegido</message>
@@ -1413,13 +1413,13 @@
 <message key="xmlui.administrative.item.EditItemBitstreamsForm.order_down">Скачать</message>
 
 	<!-- org.dspace.app.xmlui.administrative.item.EditItemMetadataForm -->
-<message key="xmlui.administrative.item.EditItemMetadataForm.title">Metadatos del ítem</message>
-<message key="xmlui.administrative.item.EditItemMetadataForm.trail">Metadatos del ítem</message>
-<message key="xmlui.administrative.item.EditItemMetadataForm.head1">Añadir nuevo metadato</message>
-<message key="xmlui.administrative.item.EditItemMetadataForm.name_label">Nombre</message>
-<message key="xmlui.administrative.item.EditItemMetadataForm.value_label">Valor</message>
-<message key="xmlui.administrative.item.EditItemMetadataForm.lang_label">Idioma</message>
-<message key="xmlui.administrative.item.EditItemMetadataForm.submit_add">Añadir nuevo metadato</message>
+<message key="xmlui.administrative.item.EditItemMetadataForm.title">Метаданные документа</message>
+<message key="xmlui.administrative.item.EditItemMetadataForm.trail">Метаданные документа</message>
+<message key="xmlui.administrative.item.EditItemMetadataForm.head1">Добавить новые метаданные</message>
+<message key="xmlui.administrative.item.EditItemMetadataForm.name_label">Название</message>
+<message key="xmlui.administrative.item.EditItemMetadataForm.value_label">Ценность</message>
+<message key="xmlui.administrative.item.EditItemMetadataForm.lang_label">Язык</message>
+<message key="xmlui.administrative.item.EditItemMetadataForm.submit_add">Добавить новые метаданные</message>
 <message key="xmlui.administrative.item.EditItemMetadataForm.para1">ADVERTENCIA: Estos cambios no se validan de ningún modo. Es responsabilidad suya introducir los datos en el formato correcto. Si no está seguro, por favor NO haga cambios.</message>
 <message key="xmlui.administrative.item.EditItemMetadataForm.head2">Metadatos</message>
 <message key="xmlui.administrative.item.EditItemMetadataForm.column1">Eliminar </message>
@@ -1965,7 +1965,7 @@ XMLUI, una interfaz para Dspace creada por Texas A&amp;M University Libraries.
 
 <message key="xmlui.dri2xhtml.structural.profile">Профиль:</message>
 <message key="xmlui.dri2xhtml.structural.logout">Выйти</message>
-<message key="xmlui.dri2xhtml.structural.login">Мой DSpace</message>
+<message key="xmlui.dri2xhtml.structural.login">Войти</message>
 
 <message key="xmlui.dri2xhtml.structural.search">Поиск в DSpace</message>
 <message key="xmlui.dri2xhtml.structural.search-advanced">Расширенный поиск</message>
@@ -2003,14 +2003,14 @@ Puede reemplazar la plantilla que gestiona el caso general dri2xhtml para mejora
 <message key="xmlui.dri2xhtml.METS-1.0.item-publisher">Редактор</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-subject">Тематика</message>
 
-<message key="xmlui.dri2xhtml.METS-1.0.item-files-head">Ficheros en el ítem</message>
+<message key="xmlui.dri2xhtml.METS-1.0.item-files-head">Файлы в этом документе</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-files-file">Ficheros</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-files-name">Имя</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-files-size">Размер</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-files-format">Формат</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-files-view">Просмотр</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-files-description">Описание</message>
-<message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">Открыть/<wbr></wbr>Открыть</message>
+<message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">Открыть</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-no-files">No hay ficheros asociados a este ítem.</message>
 
 <message key="xmlui.dri2xhtml.METS-1.0.size-bytes">bytes</message>
@@ -2240,6 +2240,30 @@ Cuando se usa QDC para los elementos de DSpace se recomienda el uso de crosswalk
     <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_head">Nota</message>
     <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_help">Una versión más reciente de este ítem está en el flujo de trabajo.</message>
 
-    <!-- End Versioning -->     
+    <!-- End Versioning -->
+
+    <!-- SDM local strings -->
+    <message key="xmlui.sdm.news.title">Государственный Дарвиновский Музей</message>
+    <message key="xmlui.sdm.news.p1">Государственный Дарвиновский Музей был основан в 1907 Александром Федоровичем Котс как образовательный музей при Московских Высших Женских Курсах. Это был первый в мире музей эволюции.</message>
+    <message key="xmlui.sdm.news.p2">Это официальной репозиторий Dspace Государственного Дарвиновского Музея, содержащий значительную часть архива Александра Федоровича Котс и регулярно пополняемый вновь отсканированными документами.</message>
+
+    <message key="xmlui.ArtifactBrowser.SiteViewer.head_recent_submissions">Недавно добавленные</message>
+
+    <message key="xmlui.ArtifactBrowser.AbstractRecentSubmissionTransformer.recent_submissions_more">Показать еще</message>
+
+    <message key="xmlui.ArtifactBrowser.CollectionViewer.head_recent_submissions">Свежие поступления</message>
+    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.head">{0}: свежие поступления</message>
+    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.trail">Свежие поступления</message>
+
+    <message key="xmlui.Discovery.AbstractSearch.head1_community">Показывается {0} из {1} найденных записей для сообщества: {2}. <span class="searchTime">({3} секунд(ы))</span></message>
+    <message key="xmlui.Discovery.AbstractSearch.head1_collection">Показывается {0} из {1} найденных записей для коллекции: {2}. <span class="searchTime">({3} секунд(ы))</span></message>
+    <message key="xmlui.Discovery.AbstractSearch.head1_none">Показывается {0} из {1} найденных записей. <span class="searchTime">({2} секунд(ы))</span></message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.display">Добавить фильтры</message>
+    <message key="xmlui.Discovery.SimpleSearch.search_scope">Искать</message>
+    <message key="xmlui.discovery.SimpleSearch.search_label">Искать</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter_head">Фильтры</message>
+
+    <!-- End SDM local strings -->
+
 
 </catalogue>
