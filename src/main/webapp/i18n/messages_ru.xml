@@ -930,7 +930,7 @@
 <message key="xmlui.administrative.eperson.ManageEPeopleMain.actions_browse_link">Нажмите здесь, чтобы посмотреть всех пользователей.</message>
 <message key="xmlui.administrative.eperson.ManageEPeopleMain.actions_search">Поиск пользователей</message>
 <message key="xmlui.administrative.eperson.ManageEPeopleMain.search_help">Поиск производится по имени и e-mail адресу</message>
-<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_para1">Пользователи, отвечающие условиям запроса. Выберите пользователя, которого хотите удалить и нажмите кнопку "удалить" или нажмите на имя или e-mail пользователя для редактирования.</message>
+<message key="xmlui.administrative.eperson.ManageEPeopleMain.search_para1">Пользователи, отвечающие условиям запроса. Выберите пользователя, которого хотите удалить и нажмите кнопку Удалить или нажмите на имя или e-mail пользователя для редактирования.</message>
 <message key="xmlui.administrative.eperson.ManageEPeopleMain.search_head">Результаты поиска</message>
 <message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column1"></message>
 <message key="xmlui.administrative.eperson.ManageEPeopleMain.search_column2">ID</message>
