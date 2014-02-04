@@ -203,15 +203,15 @@
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityViewer.java -->
 <message key="xmlui.ArtifactBrowser.CommunityViewer.search_scope">Область поиска</message>
 <message key="xmlui.ArtifactBrowser.CommunityViewer.all_of_dspace">Весь DSpace</message>
-<message key="xmlui.ArtifactBrowser.CommunityViewer.full_text_search">Buscar en esta comunidad y sus colecciones:</message>
-<message key="xmlui.ArtifactBrowser.CommunityViewer.head_browse">Listar por</message>
-<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_titles">Títulos</message>
-<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_authors">Авторы</message>
-<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_dates">Fechas</message>
-<message key="xmlui.ArtifactBrowser.CommunityViewer.advanced_search_link">Búsqueda avanzada</message>
-<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_communities">Subcomunidades en esta comunidad</message>
-<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_collections">Colecciones en esta comunidad</message>
-<message key="xmlui.ArtifactBrowser.CommunityViewer.head_recent_submissions">Envíos recientes</message>
+<message key="xmlui.ArtifactBrowser.CommunityViewer.full_text_search">Поиск в данном сообществе и его коллекциях:</message>
+<message key="xmlui.ArtifactBrowser.CommunityViewer.head_browse">Просмотр по</message>
+<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_titles">Названию</message>
+<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_authors">Автору</message>
+<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_dates">Дате</message>
+<message key="xmlui.ArtifactBrowser.CommunityViewer.advanced_search_link">Продвинутый поиск</message>
+<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_communities">Разделы данного сообщества</message>
+<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_collections">Коллекции данного сообщества</message>
+<message key="xmlui.ArtifactBrowser.CommunityViewer.head_recent_submissions">Последние добавления</message>
 
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.Contact.java -->
@@ -273,38 +273,38 @@
 	<!-- org.dspace.app.xmlui.artifactbrowser.RestrictedItem.java -->
 <message key="xmlui.ArtifactBrowser.RestrictedItem.title">Доступ к данному ресурсу ограничен</message>
 <message key="xmlui.ArtifactBrowser.RestrictedItem.trail">Доступ ограничен</message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.head_resource">Este recurso está restringido</message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.head_community">Esta comunidad está restringida</message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.head_collection">Esta colección está restringida</message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.head_item">Este ítem está restringido</message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.head_bitstream">Este archivo está restringido</message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.para_resource">No tiene los permisos necesarios para acceder al recurso restringido</message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.para_community">No tiene los permisos necesarios para acceder a la comunidad restringida</message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.para_collection">No tiene los permisos necesarios para acceder a la colección restringida</message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item">No tiene los permisos necesarios para acceder al ítem restringido</message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.para_bitstream">No tiene los permisos necesarios para acceder al archivo restringido</message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.type_collection">colección</message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.type_community">comunidad</message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.type_bitstream">archivo</message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.type_item">ítem</message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.type_resource">recurso</message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.unknown">desconocido</message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.login">Continue en la pantalla de acceso</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.head_resource">Доступ к данному ресурсу ограничен</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.head_community">Доступ к данному сообществу ограничен</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.head_collection">Доступ к данной коллекции ограничен</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.head_item">Доступ к данному документу ограничен</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.head_bitstream">Доступ к данному архиву ограничен</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.para_resource">У Вас недостаточно прав для доступа к данному ресурсу</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.para_community">У Вас недостаточно прав для доступа к данному сообществу</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.para_collection">У Вас недостаточно прав для доступа к данной коллекции</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item">У Вас недостаточно прав для доступа к данному документу</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.para_bitstream">У Вас недостаточно прав для доступа к данному архиву</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.type_collection">коллекция</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.type_community">сообщество</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.type_bitstream">архив</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.type_item">документ</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.type_resource">ресурс</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.unknown">неизвестно</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.login">Войдите в систему</message>
 
-<message key="xmlui.ArtifactBrowser.RestrictedItem.head_item_withdrawn">Este ítem ha sido retirado  </message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_withdrawn">El ítem seleccionado ha sido retirado y no está disponible</message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted_auth">El ítem seleccionado es de acceso restringido  y requiere de credenciales para su visualización. </message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted">Su usuario no dispone de permisos para ver el ítem. Para más información, contacte por favor con el administrador</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.head_item_withdrawn">Документ был удалён</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_withdrawn">Запрашиваемый Вами документ был удалён и недоступен для просмотра</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted_auth">Вы не обладаете достаточными правами для просмотра данного документа. </message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item_restricted">Вы не обладаете достаточными правами для просмотра данного документа. Пожалуйста, обратитесь к администратору.</message>
         
 	<!-- Authentication messages used at the top of the login page:  -->
-<message key="xmlui.ArtifactBrowser.RestrictedItem.auth_header">Este ítem está restringido</message>
-<message key="xmlui.ArtifactBrowser.RestrictedItem.auth_message">El ítem al que intenta acceder es un ítem restringido y requiere credenciales para verse. Por favor, identifíquese arriba para acceder al ítem.</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.auth_header">Доступ к данному документу ограничен</message>
+<message key="xmlui.ArtifactBrowser.RestrictedItem.auth_message">Доступ к данному документу ограничен.Пожалуйста, войдите в систему.</message>
 
-<message key="xmlui.ArtifactBrowser.StatisticsViewer.choose_month">Informes Mensuales</message>
-<message key="xmlui.ArtifactBrowser.StatisticsViewer.report.title">Resumen Estadístico</message>
+<message key="xmlui.ArtifactBrowser.StatisticsViewer.choose_month">Отчёт за месяц</message>
+<message key="xmlui.ArtifactBrowser.StatisticsViewer.report.title">Статистика</message>
 
-<message key="xmlui.ArtifactBrowser.StatisticsViewer.no_report.title">Sin informes disponibles en la actualidad</message>
-<message key="xmlui.ArtifactBrowser.StatisticsViewer.no_report.text">No hay actualmente informes disponibles para este servicio. Compruebe su disponibilidad más adelante.</message>
+<message key="xmlui.ArtifactBrowser.StatisticsViewer.no_report.title">Нет доступных отчётов</message>
+<message key="xmlui.ArtifactBrowser.StatisticsViewer.no_report.text">Нет доступных отчётов, пожалуйста, проверьте позже.</message>
 
     <!-- Authentication messages used for bitstream authentication -->
 <message key="xmlui.BitstreamReader.auth_header">Доступ к архиву ограничен.</message>
@@ -350,17 +350,17 @@
 <message key="xmlui.EPerson.EditProfile.subscriptions_help">Вы можете подписаться на получение ежедневных извещений о новых загруженных элементах в интересующих Вас коллекциях. Также вы можете использовать RSS ленту новостей, доступную для каждой коллекции.</message>
 <message key="xmlui.EPerson.EditProfile.email_subscriptions">Email подписка</message>
 <message key="xmlui.EPerson.EditProfile.select_collection">(Выберите коллекцию)</message>
-<message key="xmlui.EPerson.EditProfile.update_password_instructions">По желанию, Вы так же можете изменить свой пароль(введите новый пароль и подтвердите его). Новый пароль должен содержать не менее шести символов.</message>
-<message key="xmlui.EPerson.EditProfile.create_password_instructions">Por favor, introduzca una clave en la casilla superior. Confírmela volviendo a teclearla en la segunda casilla. Debería tener al menos seis caracteres.</message>
+<message key="xmlui.EPerson.EditProfile.update_password_instructions">По желанию, Вы также можете изменить свой пароль(введите новый пароль и подтвердите его). Новый пароль должен содержать не менее шести символов.</message>
+<message key="xmlui.EPerson.EditProfile.create_password_instructions">Пожалуйста, введите новый пароль и подтвердите его. Пароль должен содержать не менее шести символов.</message>
 <message key="xmlui.EPerson.EditProfile.password">Пароль</message>
-<message key="xmlui.EPerson.EditProfile.confirm_password">Repita para confirmar</message>
-<message key="xmlui.EPerson.EditProfile.submit_update">Completar el registro</message>
-<message key="xmlui.EPerson.EditProfile.submit_create">Modificar perfil</message>
-<message key="xmlui.EPerson.EditProfile.error_required">Este campo es obligatorio</message>
-<message key="xmlui.EPerson.EditProfile.error_invalid_password">Elija una contraseña de al menos 6 caracteres</message>
-<message key="xmlui.EPerson.EditProfile.error_unconfirmed_password">Por favor, repita la contraseña para confirmarla</message>
-<message key="xmlui.EPerson.EditProfile.head_auth">Usted pertenece a los siguientes grupos de autorización</message>
-<message key="xmlui.EPerson.EditProfile.head_identify">Identificar</message>
+<message key="xmlui.EPerson.EditProfile.confirm_password">Подтвердите пароль</message>
+<message key="xmlui.EPerson.EditProfile.submit_update">Завершение регистрации</message>
+<message key="xmlui.EPerson.EditProfile.submit_create">Редактировать профиль</message>
+<message key="xmlui.EPerson.EditProfile.error_required">Данное поле обязательно для заполнения</message>
+<message key="xmlui.EPerson.EditProfile.error_invalid_password">Пароль должен содержать не менее шести символов</message>
+<message key="xmlui.EPerson.EditProfile.error_unconfirmed_password">Пожалуйста, подтвердите пароль</message>
+<message key="xmlui.EPerson.EditProfile.head_auth">Группы, к которым Вы принадлежите</message>
+<message key="xmlui.EPerson.EditProfile.head_identify">Данные</message>
 <message key="xmlui.EPerson.EditProfile.head_security">Безопасность</message>
 
 	<!-- org.dspace.app.xmlui.eperson.EPersonUtils.java -->
@@ -377,11 +377,11 @@
 <message key="xmlui.EPerson.ForgotPasswordFinished.para1">Ваш пароль был восстановлен</message>
 
 	<!-- org.dspace.app.xmlui.eperson.InvalidToken.java -->
-<message key="xmlui.EPerson.InvalidToken.title">Cadena no válida</message>
-<message key="xmlui.EPerson.InvalidToken.trail">Cadena no válida</message>
-<message key="xmlui.EPerson.InvalidToken.head">Cadena no válida</message>
-<message key="xmlui.EPerson.InvalidToken.para1">La URL que ha indicado no es válida. Es posible que la URL haya sido fragmentada en varias líneas por su correo, como:</message>
-<message key="xmlui.EPerson.InvalidToken.para2">Si este es el caso, deberá copiar y pegar la URL completa directamente en la barra de dirección de su navegador, en lugar de simplemente pulsar el enlace. La barra de dirección deberá contener algo como lo siguiente:</message>
+<message key="xmlui.EPerson.InvalidToken.title">Неверный адрес</message>
+<message key="xmlui.EPerson.InvalidToken.trail">Неверный адрес</message>
+<message key="xmlui.EPerson.InvalidToken.head">Неверный адрес</message>
+<message key="xmlui.EPerson.InvalidToken.para1">Неправильный URL. URL мог быть изменен при переносе строк Вашим почтовым клиентом, например, так:</message>
+<message key="xmlui.EPerson.InvalidToken.para2">Если это случилось, скопируйте и вставьте URL в адресную строку Вашего браузера. Ардресная строка, в таком случае, должна содержать следующее:</message>
 
 	<!-- org.dspace.app.xmlui.eperson.Navigation.java -->
 <message key="xmlui.EPerson.Navigation.my_account">Моя учетная запись</message>
@@ -405,87 +405,87 @@
 <message key="xmlui.EPerson.PasswordLogin.register_link">Нажмите здесь,чтобы зарегистрироваться.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.LDAPLogin.java -->
-<message key="xmlui.EPerson.LDAPLogin.title">Acceder</message>
-<message key="xmlui.EPerson.LDAPLogin.trail">Acceder</message>
-<message key="xmlui.EPerson.LDAPLogin.head1">Acceder a DSpace</message>
-<message key="xmlui.EPerson.LDAPLogin.title">Acceder</message>
-<message key="xmlui.EPerson.LDAPLogin.username">Nombre de usuario</message>
-<message key="xmlui.EPerson.LDAPLogin.error_bad_login">El nombre de usuario o la contraseña no son validos</message>
-<message key="xmlui.EPerson.LDAPLogin.password">Contraseña</message>
-<message key="xmlui.EPerson.LDAPLogin.submit">Acceder</message>
+<message key="xmlui.EPerson.LDAPLogin.title">Войти</message>
+<message key="xmlui.EPerson.LDAPLogin.trail">Войти</message>
+<message key="xmlui.EPerson.LDAPLogin.head1">Войти в DSpace</message>
+<message key="xmlui.EPerson.LDAPLogin.title">Войти</message>
+<message key="xmlui.EPerson.LDAPLogin.username">Имя пользователя</message>
+<message key="xmlui.EPerson.LDAPLogin.error_bad_login">Неверные имя и/или пароль</message>
+<message key="xmlui.EPerson.LDAPLogin.password">Пароль</message>
+<message key="xmlui.EPerson.LDAPLogin.submit">Войти</message>
 
 	<!-- org.dspace.app.xmlui.eperson.LoginChooser.java -->
-<message key="xmlui.EPerson.LoginChooser.title">Escoger un método de acceso</message>
-<message key="xmlui.EPerson.LoginChooser.trail">Escoger nombre de usuario</message>
-<message key="xmlui.EPerson.LoginChooser.head1">Escoger un método de acceso</message>
-<message key="xmlui.EPerson.LoginChooser.para1">Acceso mediante:</message>
+<message key="xmlui.EPerson.LoginChooser.title">Выберите способ входа</message>
+<message key="xmlui.EPerson.LoginChooser.trail">Выберите имя пользователя</message>
+<message key="xmlui.EPerson.LoginChooser.head1">Выбрать способ входа</message>
+<message key="xmlui.EPerson.LoginChooser.para1">Войти с помощью:</message>
 <message key="org.dspace.authenticate.ShibAuthentication.title">Autenticación mediante Shibboleth</message>
 <message key="org.dspace.eperson.LDAPAuthentication.title">Autenticación mediante LDAP</message>
-<message key="org.dspace.eperson.PasswordAuthentication.title">Autenticación mediante contraseña</message>
-<message key="org.dspace.eperson.X509Authentication.title">Autenticación mediante certificado web</message>
+<message key="org.dspace.eperson.PasswordAuthentication.title">Пароля</message>
+<message key="org.dspace.eperson.X509Authentication.title">Web-сертификата</message>
 
 	<!-- org.dspace.app.xmlui.eperson.FailedAuthentication -->
 <message key="xmlui.EPerson.FailedAuthentication.BadCreds">Los credenciales proporcionadas son inválidas.</message>
 <message key="xmlui.EPerson.FailedAuthentication.BadArgs">La autenticación no ha sido posible debido argumentos recibidos inválidos.</message>
 <message key="xmlui.EPerson.FailedAuthentication.NoSuchUser">No se encontró ningún usuario con los permisos especificados.</message>
-<message key="xmlui.EPerson.FailedAuthentication.title">Autenticación fallida</message>
-<message key="xmlui.EPerson.FailedAuthentication.trail">Autenticación fallida</message>
-<message key="xmlui.EPerson.FailedAuthentication.h1">Autenticación fallida</message>
+<message key="xmlui.EPerson.FailedAuthentication.title">Не удалось выполнить вход</message>
+<message key="xmlui.EPerson.FailedAuthentication.trail">Не удалось выполнить вход</message>
+<message key="xmlui.EPerson.FailedAuthentication.h1">Не удалось выполнить вход</message>
 
 	<!-- Login xml files -->
-<message key="xmlui.eperson.noAuthMethod.head">No se ha encontrado método de autenticación</message>
-<message key="xmlui.eperson.noAuthMethod.p1">No se ha encontrado método de autenticación. Por favor, pónganse en contacto con el administrador.</message>
+<message key="xmlui.eperson.noAuthMethod.head">Невозможно выполнить вход</message>
+<message key="xmlui.eperson.noAuthMethod.p1">Невозможно выполнить вход. Пожалуйста, свяжитесь с администрацией сайта.</message>
 <message key="xmlui.eperson.shibbLoginFailure.head">La autenticación mediante Shibboleth ha fallado.</message>
 <message key="xmlui.eperson.shibbLoginFailure.p1">La autenticación mediante Shibboleth no esta disponible en este momento. Por favor, pónganse en contacto con el administrador.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.ProfileUpdated.java -->
-<message key="xmlui.EPerson.ProfileUpdated.title">Perfil modificado</message>
-<message key="xmlui.EPerson.ProfileUpdated.trail">Modificar perfil</message>
-<message key="xmlui.EPerson.ProfileUpdated.head">Perfil modificado</message>
-<message key="xmlui.EPerson.ProfileUpdated.para1">La información de su perfil ha sido modificada.</message>
+<message key="xmlui.EPerson.ProfileUpdated.title">Профиль изменён</message>
+<message key="xmlui.EPerson.ProfileUpdated.trail">Изменить профиль</message>
+<message key="xmlui.EPerson.ProfileUpdated.head">Профиль изменён</message>
+<message key="xmlui.EPerson.ProfileUpdated.para1">Данные Вашего профиля были изменены.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.RegistrationFinished.java -->
-<message key="xmlui.EPerson.RegistrationFinished.title">Registro terminado</message>
-<message key="xmlui.EPerson.RegistrationFinished.head">Registro terminado</message>
-<message key="xmlui.EPerson.RegistrationFinished.para1">Ahora está registrado en el sistema DSpace. Puede suscribirse a colecciones para recibir por correo electrónico las modificaciones y las nuevas incorporaciones.</message>
+<message key="xmlui.EPerson.RegistrationFinished.title">Регистрация закончена</message>
+<message key="xmlui.EPerson.RegistrationFinished.head">Регистрация закончена</message>
+<message key="xmlui.EPerson.RegistrationFinished.para1">Вы успешно зарегистрированы в системе DSpace. Теперь Вы можете подписаться на получение обновлений в коллекциях DSpace по электронной почте.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.ResetPassword.java -->
-<message key="xmlui.EPerson.ResetPassword.title">Restablecer contraseña</message>
-<message key="xmlui.EPerson.ResetPassword.head">Restablecer contraseña</message>
-<message key="xmlui.EPerson.ResetPassword.para1">Por favor, introduzca una nueva clave en la casilla superior. Confírmela volviendo a teclearla en la segunda casilla. Debería tener al menos seis caracteres.</message>
-<message key="xmlui.EPerson.ResetPassword.email_address">Dirección de correo electrónico</message>
-<message key="xmlui.EPerson.ResetPassword.new_password">Nueva contraseña</message>
-<message key="xmlui.EPerson.ResetPassword.confirm_password">Repita para confirmar</message>
-<message key="xmlui.EPerson.ResetPassword.submit">Restablecer contraseña</message>
-<message key="xmlui.EPerson.ResetPassword.error_invalid_password">Elija una contraseña de al menos 6 caracteres</message>
-<message key="xmlui.EPerson.ResetPassword.error_unconfirmed_password">Por favor, repita su contraseña para confirmarla</message>
+<message key="xmlui.EPerson.ResetPassword.title">Восстановление пароля</message>
+<message key="xmlui.EPerson.ResetPassword.head">Восстановление пароля</message>
+<message key="xmlui.EPerson.ResetPassword.para1">Пожалуйста, вевдите новый пароль и подтвердите его. Пароль должен содержать не менее шести символов.</message>
+<message key="xmlui.EPerson.ResetPassword.email_address">Email адрес</message>
+<message key="xmlui.EPerson.ResetPassword.new_password">Новый пароль</message>
+<message key="xmlui.EPerson.ResetPassword.confirm_password">Подтвердите пароль</message>
+<message key="xmlui.EPerson.ResetPassword.submit">Восстановить пароль</message>
+<message key="xmlui.EPerson.ResetPassword.error_invalid_password">Пароль должен содержать не менее 6 символов</message>
+<message key="xmlui.EPerson.ResetPassword.error_unconfirmed_password">Пожалуйста, введите пароль ещё раз для подтверждения</message>
 
 	<!-- org.dspace.app.xmlui.eperson.StartForgotPassword.java -->
-<message key="xmlui.EPerson.StartForgotPassword.title">¿Olvidó la contraseña?</message>
-<message key="xmlui.EPerson.StartForgotPassword.head">¿Olvidó la contraseña?</message>
-<message key="xmlui.EPerson.StartForgotPassword.para1">Introduzca la dirección de correo electrónico que proporcionó cuando se registró con DSpace. Se le enviará un mensaje a esa dirección con las instrucciones pertinentes.</message>
-<message key="xmlui.EPerson.StartForgotPassword.email_address">Dirección de correo electrónico</message>
-<message key="xmlui.EPerson.StartForgotPassword.email_address_help">Introduzca la misma dirección con la que se registró.</message>
-<message key="xmlui.EPerson.StartForgotPassword.error_not_found">Dirección de correo electrónico no encontrada.</message>
-<message key="xmlui.EPerson.StartForgotPassword.submit">Enviar información</message>
+<message key="xmlui.EPerson.StartForgotPassword.title">Забыли пароль?</message>
+<message key="xmlui.EPerson.StartForgotPassword.head">Забыли пароль?</message>
+<message key="xmlui.EPerson.StartForgotPassword.para1">Введите Email-адрес, указанный при регистрации. На него Вам будет выслано письмо с дальнейшими инструкциями.</message>
+<message key="xmlui.EPerson.StartForgotPassword.email_address">Email-адрес</message>
+<message key="xmlui.EPerson.StartForgotPassword.email_address_help">Введите Email адрес, указанный при регистрации.</message>
+<message key="xmlui.EPerson.StartForgotPassword.error_not_found">Email-адрес не найден.</message>
+<message key="xmlui.EPerson.StartForgotPassword.submit">Восстановить пароль</message>
 
 	<!-- org.dspace.app.xmlui.eperson.StartRegistration.java -->
-<message key="xmlui.EPerson.StartRegistration.title">Registro de nuevo usuario</message>
-<message key="xmlui.EPerson.StartRegistration.head1">Dirección de correo electrónico en uso</message>
-<message key="xmlui.EPerson.StartRegistration.para1">Esta dirección de correo está siendo utilizada por otra persona. Si quiere restablecer la contraseña para esta cuenta, pulse el botón de Restablecer contraseña.</message>
-<message key="xmlui.EPerson.StartRegistration.reset_password_for">Restablecer contraseña para:</message>
-<message key="xmlui.EPerson.StartRegistration.submit_reset">Restablecer contraseña</message>
-<message key="xmlui.EPerson.StartRegistration.head2">Registro de nuevo usuario</message>
-<message key="xmlui.EPerson.StartRegistration.para2">Registrar una cuenta para suscribirse a colecciones para recibir por correo electrónico las modificaciones y las nuevas incorporaciones.</message>
-<message key="xmlui.EPerson.StartRegistration.email_address">Dirección de correo electrónico</message>
-<message key="xmlui.EPerson.StartRegistration.email_address_help">Esta dirección será verificada y utilizada como su nombre de acceso.</message>
-<message key="xmlui.EPerson.StartRegistration.error_bad_email">Es imposible enviar un correo electrónico a esta dirección.</message>
-<message key="xmlui.EPerson.StartRegistration.submit_register">Registro</message>
+<message key="xmlui.EPerson.StartRegistration.title">Регистрация нового пользователя</message>
+<message key="xmlui.EPerson.StartRegistration.head1">Данный Email-адрес уже зарегистрирован в системе</message>
+<message key="xmlui.EPerson.StartRegistration.para1">Данный Email-адрес уже зарегистрирован в системе. Нажмите Восстановить пароль, если Вы хотите сбросить пароль.</message>
+<message key="xmlui.EPerson.StartRegistration.reset_password_for">Сбросить пароль для:</message>
+<message key="xmlui.EPerson.StartRegistration.submit_reset">Сбросить пароль</message>
+<message key="xmlui.EPerson.StartRegistration.head2">Регистрация нового пользователя</message>
+<message key="xmlui.EPerson.StartRegistration.para2">Зарегистрируйте аккаунт, чтобы подписаться на обновления коллекций DSpace по электронной почте.</message>
+<message key="xmlui.EPerson.StartRegistration.email_address">Email-адрес</message>
+<message key="xmlui.EPerson.StartRegistration.email_address_help">После подтверждения этот адрес будет использоватья для входа в систему.</message>
+<message key="xmlui.EPerson.StartRegistration.error_bad_email">Не удаётся отправить письмо на указанный электронный адрес.</message>
+<message key="xmlui.EPerson.StartRegistration.submit_register">Регистрация</message>
 
 	<!-- org.dspace.app.xmlui.eperson.VerifyEmail.java -->
-<message key="xmlui.EPerson.VerifyEmail.title">Correo de verificación enviado</message>
-<message key="xmlui.EPerson.VerifyEmail.head">Correo de verificación enviado</message>
-<message key="xmlui.EPerson.VerifyEmail.para">Se ha enviado un correo a {0} que contiene una URL especial e instrucciones de registro.</message>
+<message key="xmlui.EPerson.VerifyEmail.title">Подтверждающее письмо отправлено</message>
+<message key="xmlui.EPerson.VerifyEmail.head">Подтверждающее письмо отправлено</message>
+<message key="xmlui.EPerson.VerifyEmail.para">На адрес  {0} было отправлено подтверждающее письмо с дальнейшими инструкциями.</message>
 
                                  
                                  
@@ -530,23 +530,23 @@
 
 	
   <!-- org.dspace.app.xmlui.Submission.submissions -->
-<message key="xmlui.Submission.Submissions.title">Отправления &amp; Flujos de trabajo</message>
-<message key="xmlui.Submission.Submissions.trail">Envíos</message>
-<message key="xmlui.Submission.Submissions.head">Envíos &amp; tareas del flujo de trabajo</message>
-<message key="xmlui.Submission.Submissions.untitled"><i>Sin título</i></message>
-<message key="xmlui.Submission.Submissions.email">correo electrónico:</message>
+<message key="xmlui.Submission.Submissions.title">Отправления и задачи</message>
+<message key="xmlui.Submission.Submissions.trail">Отправления</message>
+<message key="xmlui.Submission.Submissions.head">Отправления и задачи</message>
+<message key="xmlui.Submission.Submissions.untitled"><i>Без названия</i></message>
+<message key="xmlui.Submission.Submissions.email">email-адрес:</message>
 	<!-- Same transformer, workflow section -->
-<message key="xmlui.Submission.Submissions.workflow_head1">Tareas del flujo de trabajo</message>
-<message key="xmlui.Submission.Submissions.workflow_info1">Estas tareas son ítems que están esperando aprobación antes de ser añadidas al repositorio. Hay dos colas de tareas, una para tareas que ha aceptado y otra para tareas que todavía no han sido asumidas por nadie.</message>
-<message key="xmlui.Submission.Submissions.workflow_head2">Sus tareas</message>
+<message key="xmlui.Submission.Submissions.workflow_head1">Задачи</message>
+<message key="xmlui.Submission.Submissions.workflow_info1">Эти задачи включают в себя документы, требующие подтверждения, перед добавлением в репозиторий. Одна очередь задач состоит из задач, выбранных Вами, другая - из тех, которые пока не выбрал никто.</message>
+<message key="xmlui.Submission.Submissions.workflow_head2">Ваши задачи</message>
 <message key="xmlui.Submission.Submissions.workflow_column1"></message>
-<message key="xmlui.Submission.Submissions.workflow_column2">Tarea</message>
-<message key="xmlui.Submission.Submissions.workflow_column3">Ítem</message>
-<message key="xmlui.Submission.Submissions.workflow_column4">Colección</message>
-<message key="xmlui.Submission.Submissions.workflow_column5">Remitente</message>
-<message key="xmlui.Submission.Submissions.workflow_submit_return">Devolver las tareas seleccionadas a la cola</message>
-<message key="xmlui.Submission.Submissions.workflow_info2">No tiene asignada ninguna tarea</message>
-<message key="xmlui.Submission.Submissions.workflow_head3">Tareas en cola</message>
+<message key="xmlui.Submission.Submissions.workflow_column2">Задача</message>
+<message key="xmlui.Submission.Submissions.workflow_column3">Документ</message>
+<message key="xmlui.Submission.Submissions.workflow_column4">Коллекция</message>
+<message key="xmlui.Submission.Submissions.workflow_column5">Отправитель</message>
+<message key="xmlui.Submission.Submissions.workflow_submit_return">Добавить выбранные задачи в очередь</message>
+<message key="xmlui.Submission.Submissions.workflow_info2">Нет задач, принадлежащих Вам</message>
+<message key="xmlui.Submission.Submissions.workflow_head3">Задачи, ожидающие очереди</message>
 <message key="xmlui.Submission.Submissions.workflow_submit_take">Asumir las tareas seleccionadas</message>
 <message key="xmlui.Submission.Submissions.workflow_info3">No hay tareas en cola</message>   
 	<!-- Same transformer, submissions section -->
@@ -2004,14 +2004,14 @@ Puede reemplazar la plantilla que gestiona el caso general dri2xhtml para mejora
 <message key="xmlui.dri2xhtml.METS-1.0.item-subject">Тематика</message>
 
 <message key="xmlui.dri2xhtml.METS-1.0.item-files-head">Файлы в этом документе</message>
-<message key="xmlui.dri2xhtml.METS-1.0.item-files-file">Ficheros</message>
+<message key="xmlui.dri2xhtml.METS-1.0.item-files-file">Файл</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-files-name">Имя</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-files-size">Размер</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-files-format">Формат</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-files-view">Просмотр</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-files-description">Описание</message>
 <message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">Открыть</message>
-<message key="xmlui.dri2xhtml.METS-1.0.item-no-files">No hay ficheros asociados a este ítem.</message>
+<message key="xmlui.dri2xhtml.METS-1.0.item-no-files">В этом документе нет ни одного файла.</message>
 
 <message key="xmlui.dri2xhtml.METS-1.0.size-bytes">bytes</message>
 <message key="xmlui.dri2xhtml.METS-1.0.size-kilobytes">Kb</message>
