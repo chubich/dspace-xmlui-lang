@@ -419,15 +419,15 @@
 <message key="xmlui.EPerson.LoginChooser.trail">Выберите имя пользователя</message>
 <message key="xmlui.EPerson.LoginChooser.head1">Выбрать способ входа</message>
 <message key="xmlui.EPerson.LoginChooser.para1">Войти с помощью:</message>
-<message key="org.dspace.authenticate.ShibAuthentication.title">Autenticación mediante Shibboleth</message>
-<message key="org.dspace.eperson.LDAPAuthentication.title">Autenticación mediante LDAP</message>
+<message key="org.dspace.authenticate.ShibAuthentication.title">Аутентификация посредством Shibboleth</message>
+<message key="org.dspace.eperson.LDAPAuthentication.title">Аутентификация посредством LDAP</message>
 <message key="org.dspace.eperson.PasswordAuthentication.title">Пароля</message>
 <message key="org.dspace.eperson.X509Authentication.title">Web-сертификата</message>
 
 	<!-- org.dspace.app.xmlui.eperson.FailedAuthentication -->
-<message key="xmlui.EPerson.FailedAuthentication.BadCreds">Los credenciales proporcionadas son inválidas.</message>
-<message key="xmlui.EPerson.FailedAuthentication.BadArgs">La autenticación no ha sido posible debido argumentos recibidos inválidos.</message>
-<message key="xmlui.EPerson.FailedAuthentication.NoSuchUser">No se encontró ningún usuario con los permisos especificados.</message>
+<message key="xmlui.EPerson.FailedAuthentication.BadCreds">Предоставленные данные недействительны.</message>
+<message key="xmlui.EPerson.FailedAuthentication.BadArgs">Невозможно произвести аутентификацию из-за неверных аргументов.</message>
+<message key="xmlui.EPerson.FailedAuthentication.NoSuchUser">По указанным данным пользователь не найден.</message>
 <message key="xmlui.EPerson.FailedAuthentication.title">Не удалось выполнить вход</message>
 <message key="xmlui.EPerson.FailedAuthentication.trail">Не удалось выполнить вход</message>
 <message key="xmlui.EPerson.FailedAuthentication.h1">Не удалось выполнить вход</message>
@@ -435,8 +435,8 @@
 	<!-- Login xml files -->
 <message key="xmlui.eperson.noAuthMethod.head">Невозможно выполнить вход</message>
 <message key="xmlui.eperson.noAuthMethod.p1">Невозможно выполнить вход. Пожалуйста, свяжитесь с администрацией сайта.</message>
-<message key="xmlui.eperson.shibbLoginFailure.head">La autenticación mediante Shibboleth ha fallado.</message>
-<message key="xmlui.eperson.shibbLoginFailure.p1">La autenticación mediante Shibboleth no esta disponible en este momento. Por favor, pónganse en contacto con el administrador.</message>
+<message key="xmlui.eperson.shibbLoginFailure.head">Вход с помощью Shibboleth не удался.</message>
+<message key="xmlui.eperson.shibbLoginFailure.p1">Аутентификация с помощью Shibboleth недоступна в этот момент. Пожалуйста, свяжитесь с администратором сайта.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.ProfileUpdated.java -->
 <message key="xmlui.EPerson.ProfileUpdated.title">Профиль изменён</message>
@@ -715,117 +715,117 @@
 
  <message key="xmlui.Submission.submit.UploadWithEmbargoStep.head">Загрузить документ(ы)</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file">Файл</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file_help">Por favor, introduzca el path completo del fichero que corresponda a su ítem. Si pulsa "Ver.." aparecerá una nueva ventana desde la que podrá seleccionar el fichero.</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file_error">El ítem debe contener al menos un fichero.</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.upload_error">Hubo un problema subiendo su fichero. Bien el nombre del fichero era incorrecto, o hubo un problema de red  que impidió que el fichero nos llegase correctamente, o ha adjuntado un fichero cuyo formato solo se permite para usos internos del sistema. Por favor, inténtelo de nuevo.</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_error">No se ha subido el fichero ya que parece contener un virus. Por favor, contacte con el administrador del sistema.</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_checker_error">Hubo un problema al intentar comprobar la existencia de virus en el fichero. Por favor, contacte con el administrador del sistema.</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description">Descripción del fichero</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description_help">Opcionalmente, describa brevemente el fichero, for example "<i>Artículo principal</i>", r "<i>Datos Experimentales</i>".</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_upload">Subir Fichero &amp; añadir otro</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.head2">Ficheros Subidos</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column0">Primario</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file_help">Пожалуйста, введите полный путь к файлу на вашем компьютере, соответствущему документу. Если вы нажмете "Просмотр", то сможете выбрать файл в новом окне.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.file_error">Документ должен содержать хотя бы один документ.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.upload_error">При загрузке файла возникла проблема. Возможно, имя файла было неверным или произошла проблема с соединением, что помешало успешному завершению загрузки или формат файла не поддерживается. Пожалуйста, попробуйте еще раз.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_error">Не удалось загрузить файл, так как, возможно, он содержит вирус. Пожалуйста, свяжитесь с администратором системы.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.virus_checker_error">Возникла ошибка в процессе проверки файла на вирусы. Пожалуйста, свяжитесь с администратором системы.</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description">Описание файла</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.description_help">По желанию добавьте краткое описание документа, например, "<i>Основная статья</i>", или "<i>Экспериментальные данные</i>".</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_upload">Загрузка файла &amp; добавить еще один</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.head2">Загруженные файлы</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column0">Главный</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column1">  </message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column2">Fichero</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column3">Tamaño</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column4">Descripción</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column5">Formato</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column2">Файл</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column3">Размер</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column4">Описание</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column5">Формат</message>
     <message key="xmlui.Submission.submit.UploadWithEmbargoStep.column6"></message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_name">Desconocido</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_format">formato desconocido</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.supported">(Compatible)</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.known">(Conocido)</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unsupported">(No Soportado)</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_edit">Editar</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.checksum">Verificación de fichero:</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_remove">Eliminar los ficheros seleccionados</message>
-    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_policy">Privilegios</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_name">Неизвестный</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unknown_format">неизвестный формат</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.supported">(Поддерживаемый)</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.known">(Известный)</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.unsupported">(Неподдерживаемый)</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_edit">Редактировать</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.checksum">Контрольная сумма файла:</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_remove">Удалить выбранные файлы</message>
+    <message key="xmlui.Submission.submit.UploadWithEmbargoStep.submit_policy">Правила включения</message>
        
 	<!-- org.dspace.app.xmlui.Submission.submit.EditFileStep -->
-<message key="xmlui.Submission.submit.EditFileStep.head">Editar fichero</message>
-<message key="xmlui.Submission.submit.EditFileStep.file">Fichero</message>
-<message key="xmlui.Submission.submit.EditFileStep.description">Descripción del fichero</message>
-<message key="xmlui.Submission.submit.EditFileStep.description_help">Si lo desea, puede describir brevemente el contenido de este fichero, por ejemplo "<i>Artículo principal</i>", o "<i>Lectura de los datos del documento</i>".</message>
-<message key="xmlui.Submission.submit.EditFileStep.info1">Seleccione en la lista el formato del archivo, por ejemplo "<i>Adobe PDF</i>" o "<i>Microsoft Word</i>", <b>O</b> si el formato no está en la lista, por favor, describa el formato del archivo en la casilla bajo la lista.</message>
-<message key="xmlui.Submission.submit.EditFileStep.format_detected">Formato detectado</message>
-<message key="xmlui.Submission.submit.EditFileStep.format_selected">Formato elegido</message>
-<message key="xmlui.Submission.submit.EditFileStep.format_default">El formato no está en la lista</message>
-<message key="xmlui.Submission.submit.EditFileStep.info2">Si el formato no está en la lista, <strong>seleccione "El formato no está en la lista" </strong> y descríbalo en la casilla inferior.</message>
-<message key="xmlui.Submission.submit.EditFileStep.format_user">Otro formato</message>
-<message key="xmlui.Submission.submit.EditFileStep.format_user_help">El nombre y versión de la aplicación que utilizó para crear el fichero (por ejemplo, "<i>ACMESoft SuperApp versión 1.5</i>").</message>
+<message key="xmlui.Submission.submit.EditFileStep.head">Редактировать файл</message>
+<message key="xmlui.Submission.submit.EditFileStep.file">Файл</message>
+<message key="xmlui.Submission.submit.EditFileStep.description">Описание файла</message>
+<message key="xmlui.Submission.submit.EditFileStep.description_help">По желанию Вы можете добавить краткое описание содержания файла, например "<i>Главная статья</i>", или "<i>Экспериментальные данные</i>".</message>
+<message key="xmlui.Submission.submit.EditFileStep.info1">Выберите из списка формат архива, например "<i>Adobe PDF</i>" или "<i>Microsoft Word</i>", <b>O</b> если формат не присутствует в списке, пожалуйста, укажите формат в поле под списком.</message>
+<message key="xmlui.Submission.submit.EditFileStep.format_detected">Определен формат</message>
+<message key="xmlui.Submission.submit.EditFileStep.format_selected">Выбран формат</message>
+<message key="xmlui.Submission.submit.EditFileStep.format_default">Формата нет в списке</message>
+<message key="xmlui.Submission.submit.EditFileStep.info2">Если формата нет в списке, <strong>выберите "Формата нет в списке" </strong> и укажите его в поле ниже.</message>
+<message key="xmlui.Submission.submit.EditFileStep.format_user">Другой формат</message>
+<message key="xmlui.Submission.submit.EditFileStep.format_user_help">Название и версия приложения, которое вы использовали для создания документа (например, "<i>ACMESoft SuperApp версия 1.5</i>").</message>
 
 	   <!-- org.dspace.app.xmlui.Submission.submit.EditBitstreamPolicies -->
-    <message key="xmlui.Submission.submit.EditBitstreamPolicies.head">Editar Permisos de Ficheros</message>
+    <message key="xmlui.Submission.submit.EditBitstreamPolicies.head">Доступ к Bitstream</message>
     
     <!-- org.dspace.app.xmlui.Submission.submit.ReviewStep -->
-<message key="xmlui.Submission.submit.ReviewStep.head">Revisar envío</message>
-<message key="xmlui.Submission.submit.ReviewStep.yes">Sí</message>
-<message key="xmlui.Submission.submit.ReviewStep.no">No</message>
-<message key="xmlui.Submission.submit.ReviewStep.submit_jump">Corregir alguno de éstos</message>
-<message key="xmlui.Submission.submit.ReviewStep.submit_jump_files">Añadir o eliminar un fichero</message>
-<message key="xmlui.Submission.submit.ReviewStep.head1">Preguntas iniciales</message>
-<message key="xmlui.Submission.submit.ReviewStep.head2">Describir página {0}</message>
-<message key="xmlui.Submission.submit.ReviewStep.head3">Ficheros subidos</message>
-<message key="xmlui.Submission.submit.ReviewStep.multiple_titles">Múltiples títulos</message>
-<message key="xmlui.Submission.submit.ReviewStep.published_before">Publicado antes de</message>
+<message key="xmlui.Submission.submit.ReviewStep.head">Проверить отправляемый документ</message>
+<message key="xmlui.Submission.submit.ReviewStep.yes">Да</message>
+<message key="xmlui.Submission.submit.ReviewStep.no">Нет</message>
+<message key="xmlui.Submission.submit.ReviewStep.submit_jump">Отредактировать один из элементов</message>
+<message key="xmlui.Submission.submit.ReviewStep.submit_jump_files">Добавить или удалить файл</message>
+<message key="xmlui.Submission.submit.ReviewStep.head1">Основные вопросы</message>
+<message key="xmlui.Submission.submit.ReviewStep.head2">Описание страницы {0}</message>
+<message key="xmlui.Submission.submit.ReviewStep.head3">Загруженные файлы</message>
+<message key="xmlui.Submission.submit.ReviewStep.multiple_titles">Несколько названий</message>
+<message key="xmlui.Submission.submit.ReviewStep.published_before">Опубликовано до</message>
 <message key="xmlui.Submission.submit.ReviewStep.no_metadata">-</message>
-<message key="xmlui.Submission.submit.ReviewStep.unknown">desconocido</message>
-<message key="xmlui.Submission.submit.ReviewStep.known">conocido</message>
-<message key="xmlui.Submission.submit.ReviewStep.supported">compatible</message>
+<message key="xmlui.Submission.submit.ReviewStep.unknown">неизвестный</message>
+<message key="xmlui.Submission.submit.ReviewStep.known">известный</message>
+<message key="xmlui.Submission.submit.ReviewStep.supported">поддерживаемый</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.CCLicenseStep -->
-<message key="xmlui.Submission.submit.CCLicenseStep.ccws_error">Hubo un error .. {0}</message>
-<message key="xmlui.Submission.submit.CCLicenseStep.head">Licencie su trabajo</message>
-<message key="xmlui.Submission.submit.CCLicenseStep.info1">Puede opcionalmente asignar a su ítem una licencia <a href="http://creativecommons.org/">Creative Commons</a>. Las licencias Creative Commons determinan qué pueden hacer los lectores con su trabajo.</message>
-<message key="xmlui.Submission.submit.CCLicenseStep.submit_choose_creative_commons">Elija licencia</message>
-<message key="xmlui.Submission.submit.CCLicenseStep.submit_to_creative_commons">Acceder a Creative Commons para elegir una licencia</message>
-<message key="xmlui.Submission.submit.CCLicenseStep.license">Tipo de Licencia</message>
-<message key="xmlui.Submission.submit.CCLicenseStep.select_change">Seleccione o modifique la licencia...</message>
-<message key="xmlui.Submission.submit.CCLicenseStep.no_license">Sin licencia Creative Commons</message>
-<message key="xmlui.Submission.submit.CCLicenseStep.save_changes">Pulse Siguiente para salvar sus cambios.</message>
+<message key="xmlui.Submission.submit.CCLicenseStep.ccws_error">Произошла ошибка .. {0}</message>
+<message key="xmlui.Submission.submit.CCLicenseStep.head">Лицензия для документа</message>
+<message key="xmlui.Submission.submit.CCLicenseStep.info1">По желанию вы можете добавить лицензию для вашего документа <a href="http://creativecommons.org/">Creative Commons</a>. Лицензия Creative Commons определяет, какие действия могут совершать читатели с вашим документом.</message>
+<message key="xmlui.Submission.submit.CCLicenseStep.submit_choose_creative_commons">Выберите лицензию</message>
+<message key="xmlui.Submission.submit.CCLicenseStep.submit_to_creative_commons">Войти в Creative Commons, чтобы выбрать лицензию</message>
+<message key="xmlui.Submission.submit.CCLicenseStep.license">Тип лицензии</message>
+<message key="xmlui.Submission.submit.CCLicenseStep.select_change">Выберите или измените лицензию...</message>
+<message key="xmlui.Submission.submit.CCLicenseStep.no_license">Без лицензии Creative Commons</message>
+<message key="xmlui.Submission.submit.CCLicenseStep.save_changes">Нажмите "Далее", чтобы сохранить изменения.</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.LicenseStep -->
-<message key="xmlui.Submission.submit.LicenseStep.head">Licencia de distribución</message>
-<message key="xmlui.Submission.submit.LicenseStep.info1"><strong>Queda un último paso:</strong> para permitir a DSpace reproducir, traducir y distribuir su envío a través del mundo, necesitamos su conformidad en los siguientes términos.</message>
-<message key="xmlui.Submission.submit.LicenseStep.info2">Conceda la licencia de distribución estándar seleccionando 'Conceder licencia' y pulsando 'Completar envío'.</message>
-<message key="xmlui.Submission.submit.LicenseStep.info3">Si tiene alguna duda sobre la licencia, por favor, contacte con el administrador del sistema.</message>
-<message key="xmlui.Submission.submit.LicenseStep.decision_label">Licencia de distribución</message>
-<message key="xmlui.Submission.submit.LicenseStep.decision_checkbox">Conceder licencia</message>
-<message key="xmlui.Submission.submit.LicenseStep.decision_error">Debe conceder la licencia para completar el envío. Si ahora no la puede conceder la licencia, deberá guardar su trabajo y volver más tarde o bien eliminar inmediatamente el envío pulsando Borrar el envío.</message>
+<message key="xmlui.Submission.submit.LicenseStep.head">Лицензию распространения</message>
+<message key="xmlui.Submission.submit.LicenseStep.info1"><strong>Остался последний шаг:</strong> чтобы в DSpace можно было воспроизводить, переводить и распространять ваш документ по всему миру, нам нужно чтобы вы приняли следующие условия.</message>
+<message key="xmlui.Submission.submit.LicenseStep.info2">Предоставьте стандартную лицензию распространения, выбрав 'Предоставить лицензию' и нажав 'Закончить отправку'.</message>
+<message key="xmlui.Submission.submit.LicenseStep.info3">Если у Вас возникли какие-либо вопросы по поводу лицензии, пожалуйста, свяжитесь с администратором системы.</message>
+<message key="xmlui.Submission.submit.LicenseStep.decision_label">Лицензия распространения</message>
+<message key="xmlui.Submission.submit.LicenseStep.decision_checkbox">Предоставить лицензию</message>
+<message key="xmlui.Submission.submit.LicenseStep.decision_error">Вам нужно предоставить лицензию, чтобы закончить отправку. Если вы не можете это сделать сейчас, вам придется сохранить ваш документ, возобновить работу позже или сейчас же удалить ваш документ, нажав "Удалить документ".</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.RemovedStep -->
-<message key="xmlui.Submission.submit.RemovedStep.head">Envío eliminado</message>
-<message key="xmlui.Submission.submit.RemovedStep.info1">Su envío ha sido cancelado, y el ítem incompleto ha sido borrado del sistema.</message>
-<message key="xmlui.Submission.submit.RemovedStep.go_submission">Ir a la página de envíos</message>
+<message key="xmlui.Submission.submit.RemovedStep.head">Документ удален</message>
+<message key="xmlui.Submission.submit.RemovedStep.info1">Ваше отправление было отменено, и неполный документ был удален из системы.</message>
+<message key="xmlui.Submission.submit.RemovedStep.go_submission">Перейти на страницу отправки</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.CompletedStep -->
-<message key="xmlui.Submission.submit.CompletedStep.head">Envío completado</message>
-<message key="xmlui.Submission.submit.CompletedStep.info1">Su envío pasará por el flujo de trabajo designado para la colección a la que lo está enviando. Recibirá una notificación vía correo electrónico tan pronto como su envío forme parte de la colección, o si por alguna razón hubiera algún problema con el envío. También puede verificar el estado de su envío accediendo a la página 'Mi DSpace'.</message>
-<message key="xmlui.Submission.submit.CompletedStep.go_submission">Ir a la página de envíos</message>
-<message key="xmlui.Submission.submit.CompletedStep.submit_again">Enviar otro ítem</message>
+<message key="xmlui.Submission.submit.CompletedStep.head">Отправка завершена</message>
+<message key="xmlui.Submission.submit.CompletedStep.info1">Ваш документ пройдет через процесс модерации для данной коллекции. Вы получите оповещение по электронной почте как только ваш файл будет добавлен в коллекцию. Вы также можете проверить состояние отправки на странице 'Мой DSpace'.</message>
+<message key="xmlui.Submission.submit.CompletedStep.go_submission">Перейти на страницу отправки</message>
+<message key="xmlui.Submission.submit.CompletedStep.submit_again">Добавить другой документ</message>
 
 	<!-- org.dspace.app.xmlui.Submission.workflow.PerformTaskStep -->
-<message key="xmlui.Submission.workflow.PerformTaskStep.info1">Acciones posibles para esta tarea:</message>
-<message key="xmlui.Submission.workflow.PerformTaskStep.take_help">Asígnese esta tarea.</message>
-<message key="xmlui.Submission.workflow.PerformTaskStep.take_submit">Asumir tarea</message>
-<message key="xmlui.Submission.workflow.PerformTaskStep.leave_help">Dejar esta tarea en la cola para que la asuma otra persona.</message>
-<message key="xmlui.Submission.workflow.PerformTaskStep.leave_submit">Dejar tarea</message>
-<message key="xmlui.Submission.workflow.PerformTaskStep.approve_help">Si ha revisado el ítem y lo considera adecuado para la colección, seleccione "Aprobar".</message>
-<message key="xmlui.Submission.workflow.PerformTaskStep.approve_submit">Aprobar</message>
-<message key="xmlui.Submission.workflow.PerformTaskStep.commit_help">Una vez editado el ítem, use esta opción para actualizarlo.</message>
-<message key="xmlui.Submission.workflow.PerformTaskStep.commit_submit">Actualizar en el archivo</message>
-<message key="xmlui.Submission.workflow.PerformTaskStep.reject_help">Si ha revisado el ítem y ha encontrado que <strong>no</strong> es conveniente incluirlo en la colección, elija "Rechazar". Se le pedirá que explique por qué el ítem no es adecuado, y qué debe cambiar el remitente para reenviarlo.</message>
-<message key="xmlui.Submission.workflow.PerformTaskStep.reject_submit">Rechazar ítem</message>
-<message key="xmlui.Submission.workflow.PerformTaskStep.edit_help">Elija esta opción para corregir o editar los metadatos del ítem.</message>
-<message key="xmlui.Submission.workflow.PerformTaskStep.edit_submit">Editar metadatos</message>
-<message key="xmlui.Submission.workflow.PerformTaskStep.return_help">Para devolver la tarea a la cola de modo que otra persona pueda terminar la tarea de revisión, use esta opción.</message>
-<message key="xmlui.Submission.workflow.PerformTaskStep.return_submit">Devolver a la cola</message>
+<message key="xmlui.Submission.workflow.PerformTaskStep.info1">Действия, доступные для этой задачи:</message>
+<message key="xmlui.Submission.workflow.PerformTaskStep.take_help">Назначить задачу себе.</message>
+<message key="xmlui.Submission.workflow.PerformTaskStep.take_submit">Взять задачу</message>
+<message key="xmlui.Submission.workflow.PerformTaskStep.leave_help">Оставить задачу в очереди, чтобы другой пользователь мог её взять.</message>
+<message key="xmlui.Submission.workflow.PerformTaskStep.leave_submit">Оставить задачу</message>
+<message key="xmlui.Submission.workflow.PerformTaskStep.approve_help">Если вы проверили документ и считаете его подходящим для коллекции, выберите "Подтвердить".</message>
+<message key="xmlui.Submission.workflow.PerformTaskStep.approve_submit">Подтвердить</message>
+<message key="xmlui.Submission.workflow.PerformTaskStep.commit_help">Когда закончите редактировать документ, воспользуйтесь этой опцией, чтобы отправить его в архив.</message>
+<message key="xmlui.Submission.workflow.PerformTaskStep.commit_submit">Отправить в архив</message>
+<message key="xmlui.Submission.workflow.PerformTaskStep.reject_help">Если вы проверили документ и обнаружили, что он <strong>не</strong> подходит для включения в эту коллекцию, выберите "Отклонить". Вам будет предложено ввести сообщение, в котором вам нужно будет пояснить, почему документ не подходит для коллекции и что нужно поменять, чтобы документ начал подходить.</message>
+<message key="xmlui.Submission.workflow.PerformTaskStep.reject_submit">Отклонить документ</message>
+<message key="xmlui.Submission.workflow.PerformTaskStep.edit_help">Выберите этот пункт, чтобы исправить или отредактировать метаданные документа.</message>
+<message key="xmlui.Submission.workflow.PerformTaskStep.edit_submit">Редактировать метаданные</message>
+<message key="xmlui.Submission.workflow.PerformTaskStep.return_help">Чтобы вернуть задачу в очередь чтобы другой человек мог закончить её проверку, нажмите здесь.</message>
+<message key="xmlui.Submission.workflow.PerformTaskStep.return_submit">Вернуть в очередь</message>
 
 	<!-- org.dspace.app.xmlui.Submission.workflow.RejectTaskStep -->
-<message key="xmlui.Submission.workflow.RejectTaskStep.info1">Por favor, indique la razón por la que rechaza el envío. Indique en su mensaje qué deberá cambiar el remitente para reenviarlo.</message>
-<message key="xmlui.Submission.workflow.RejectTaskStep.reason">Motivo</message>
-<message key="xmlui.Submission.workflow.RejectTaskStep.reason_required">El campo Motivo es obligatorio</message>
-<message key="xmlui.Submission.workflow.RejectTaskStep.submit_reject">Rechazar ítem</message>
+<message key="xmlui.Submission.workflow.RejectTaskStep.info1">Пожалуйста, укажите причину, по которой Вы отклоняете документ. Укажите в сообщении, что именно следует изменить отправителю перед повторной отправкой.</message>
+<message key="xmlui.Submission.workflow.RejectTaskStep.reason">Причина</message>
+<message key="xmlui.Submission.workflow.RejectTaskStep.reason_required">Поле "Причина" обязательно</message>
+<message key="xmlui.Submission.workflow.RejectTaskStep.submit_reject">Отклонить документ</message>
 
 
 
@@ -837,44 +837,44 @@
 
 
 	<!-- action-generated messages. These are referenced from the sitemap rather than a transformer -->
-<message key="xmlui.administrative.FlowCurationUtils.curate_success_notice">La tarea se completó satisfactoriamente.</message>
-<message key="xmlui.administrative.FlowCurationUtils.curate_failed_notice">La tarea finalizó o falló inesperadamente.  Contacte por favor con el administrador o revise los archivos de errores</message>
-<message key="xmlui.administrative.FlowCurationUtils.queue_success_notice">Se encoló la tarea satisfactoriamente.</message>
-<message key="xmlui.administrative.FlowCurationUtils.queue_failed_notice">No se pudo encolar la tarea por un error.  Para más información, contacte por favor con el administrador o revise los archivos de errores.</message>
-<message key="xmlui.administrative.FlowEPersonUtils.add_eperson_success_notice">Se añadió el usuario correctamente.</message>
-<message key="xmlui.administrative.FlowEPersonUtils.edit_eperson_success_notice">Se editó el usuario correctamente.</message>
-<message key="xmlui.administrative.FlowEPersonUtils.reset_password_success_notice">Se ha enviado un mensaje al usuario que contiene un testigo que le permitirá obtener una nueva clave.</message>
-<message key="xmlui.administrative.FlowEPersonUtils.delete_eperson_success_notice">El usuario(s) ha sido borrado correctamente.</message>
-<message key="xmlui.administrative.FlowEPersonUtils.delete_eperson_failed_notice">Los usuarios de la lista no se han eliminado porque hay restricciones para realizar esta acción. Vea la página con los datos del usuario para más información.</message>
-<message key="xmlui.administrative.FlowGroupUtils.edit_group_success_notice">El grupo se modificó correctamente.</message>
-<message key="xmlui.administrative.FlowGroupUtils.delete_group_success_notice">Los grupos seleccionados se borraron satisfactoriamente.</message>
-<message key="xmlui.administrative.FlowRegistryUtils.add_metadata_schema_success_notice">Nuevo esquema creado correctamente.</message>
-<message key="xmlui.administrative.FlowRegistryUtils.delete_metadata_schema_success_notice">El esquema(s) ha sido borrado satisfactoriamente.</message>
-<message key="xmlui.administrative.FlowRegistryUtils.add_metadata_field_success_notice">Campo de metadato añadido correctamente.</message>
-<message key="xmlui.administrative.FlowRegistryUtils.edit_metadata_field_success_notice">Campo de metadato modificado correctamente.</message>
-<message key="xmlui.administrative.FlowRegistryUtils.move_metadata_field_success_notice">El campo(s) fue movido correctamente.</message>
-<message key="xmlui.administrative.FlowRegistryUtils.delete_metadata_field_success_notice">El campo(s) fue borrado correctamente.</message>
-<message key="xmlui.administrative.FlowRegistryUtils.edit_bitstream_format_success_notice">Se guardó el formato correctamente.</message>
-<message key="xmlui.administrative.FlowRegistryUtils.delete_bitstream_format_success_notice">El formato(s) se borró correctamente.</message>
-<message key="xmlui.administrative.FlowItemUtils.metadata_updated">Los metadatos del ítem fueron correctamente modificados.</message>
-<message key="xmlui.administrative.FlowItemUtils.metadata_added">Nuevo metadato añadido.</message>
-<message key="xmlui.administrative.FlowItemUtils.item_withdrawn">El ítem ha sido retirado.</message>
-<message key="xmlui.administrative.FlowItemUtils.item_reinstated">El ítem ha sido reintegrado.</message>
-<message key="xmlui.administrative.FlowItemUtils.item_moved">El item ha sido movido.</message>
-<message key="xmlui.administrative.FlowItemUtils.item_move_failed">La colección destino seleccionada no se ha encontrado.</message>
-<message key="xmlui.administrative.FlowItemUtils.bitstream_added">El nuevo archivo se ha cargado satisfactoriamente.</message>
-<message key="xmlui.administrative.FlowItemUtils.bitstream_failed">Error cargando el archivo.</message>
-<message key="xmlui.administrative.FlowItemUtils.bitstream_updated">El archivo ha sido modificado.</message>
-<message key="xmlui.administrative.FlowItemUtils.bitstream_delete">Los archivos seleccionados se han borrado.</message>
-<message key="xmlui.administrative.FlowMapperUtils.map_items">Los ítems han sido correctamente relacionados.</message>
-<message key="xmlui.administrative.FlowMapperUtils.unmaped_items">Se ha eliminado correctamente la relación de los ítems.</message>
+<message key="xmlui.administrative.FlowCurationUtils.curate_success_notice">Задача успешно выполнена.</message>
+<message key="xmlui.administrative.FlowCurationUtils.curate_failed_notice">Задача была прервана или закончена неудачно. Свяжитесь с администратором или проверьте журнал системы</message>
+<message key="xmlui.administrative.FlowCurationUtils.queue_success_notice">Задача успешно добавлена в очередь.</message>
+<message key="xmlui.administrative.FlowCurationUtils.queue_failed_notice">Не удалось добавить файл в очередь из-за ошибки. За дополнительной информацией, пожалуйста, обратитесь к администратору или проверьте журнал на возможные ошибки.</message>
+<message key="xmlui.administrative.FlowEPersonUtils.add_eperson_success_notice">Пользователь успешно добавлен.</message>
+<message key="xmlui.administrative.FlowEPersonUtils.edit_eperson_success_notice">Пользователь успешно отредактирован.</message>
+<message key="xmlui.administrative.FlowEPersonUtils.reset_password_success_notice">Пользователю отправлено сообщение, содержащее код, который может быть использован для восстановления пароля</message>
+<message key="xmlui.administrative.FlowEPersonUtils.delete_eperson_success_notice">Пользовател(и) успешно удалены.</message>
+<message key="xmlui.administrative.FlowEPersonUtils.delete_eperson_failed_notice">Пользователи из списка не были удалены из-за ограничений, не позволяющих их удалить. Для дополнительной информации просмотрите страницу с данными пользователя.</message>
+<message key="xmlui.administrative.FlowGroupUtils.edit_group_success_notice">Группа успешно отредактирована.</message>
+<message key="xmlui.administrative.FlowGroupUtils.delete_group_success_notice">Выбранные группы успешно удалены.</message>
+<message key="xmlui.administrative.FlowRegistryUtils.add_metadata_schema_success_notice">Новая схема создана успешно.</message>
+<message key="xmlui.administrative.FlowRegistryUtils.delete_metadata_schema_success_notice">Схема была успешно удалена.</message>
+<message key="xmlui.administrative.FlowRegistryUtils.add_metadata_field_success_notice">Поле метаданных успешно добавлено.</message>
+<message key="xmlui.administrative.FlowRegistryUtils.edit_metadata_field_success_notice">Поле метаданных успешно отредактировано.</message>
+<message key="xmlui.administrative.FlowRegistryUtils.move_metadata_field_success_notice">Поле метаданных успешно перемещено.</message>
+<message key="xmlui.administrative.FlowRegistryUtils.delete_metadata_field_success_notice">Поле метаданных успешно удалено.</message>
+<message key="xmlui.administrative.FlowRegistryUtils.edit_bitstream_format_success_notice">Формат успешно сохранен.</message>
+<message key="xmlui.administrative.FlowRegistryUtils.delete_bitstream_format_success_notice">Формат(ы) успешно удалены.</message>
+<message key="xmlui.administrative.FlowItemUtils.metadata_updated">Метаданные документа успешно изменены.</message>
+<message key="xmlui.administrative.FlowItemUtils.metadata_added">Добавлены новые метаданные.</message>
+<message key="xmlui.administrative.FlowItemUtils.item_withdrawn">Документ был удален.</message>
+<message key="xmlui.administrative.FlowItemUtils.item_reinstated">Документ был восстановлен.</message>
+<message key="xmlui.administrative.FlowItemUtils.item_moved">Документ был перемещен.</message>
+<message key="xmlui.administrative.FlowItemUtils.item_move_failed">Выбранная коллекция не найдена.</message>
+<message key="xmlui.administrative.FlowItemUtils.bitstream_added">Новый архив успешно загружен.</message>
+<message key="xmlui.administrative.FlowItemUtils.bitstream_failed">Ошибка при загрузке архива.</message>
+<message key="xmlui.administrative.FlowItemUtils.bitstream_updated">Архив измененен.</message>
+<message key="xmlui.administrative.FlowItemUtils.bitstream_delete">Выбранные архивы были удалены.</message>
+<message key="xmlui.administrative.FlowMapperUtils.map_items">Выбранные документы успешно упорядочены.</message>
+<message key="xmlui.administrative.FlowMapperUtils.unmaped_items">Документы были успешно отсоединены.</message>
 
 	<!-- general items for all of the eperson classes -->
 <message key="xmlui.administrative.eperson.general.epeople_trail">Администрирование пользователей</message>
 
 	<!-- org.dspace.app.xmlui.administrative.Navigation -->
 	<!-- contextual menu items -->
-<message key="xmlui.administrative.Navigation.context_head">Contexto</message>
+<message key="xmlui.administrative.Navigation.context_head">Контекст</message>
 <message key="xmlui.administrative.Navigation.context_edit_item">Изменить этот документ</message>
 <message key="xmlui.administrative.Navigation.context_edit_collection">Редактировать коллекцию</message>
 <message key="xmlui.administrative.Navigation.context_item_mapper">Каталог документов</message>
@@ -977,19 +977,19 @@
 <message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.tasklistitem">el usuario tiene una tarea de flujo de trabajo por atender</message>
 <message key="xmlui.administrative.eperson.EditEPersonForm.delete_constraint.unknown">ограничение не распознано системой</message>
 
-<message key="xmlui.administrative.eperson.EditEPersonForm.member_head">Este usuario pertenece a los grupos:</message>
-<message key="xmlui.administrative.eperson.EditEPersonForm.indirect_member">(por el grupo: {0})</message>
-<message key="xmlui.administrative.eperson.EditEPersonForm.member_none">ninguno</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.member_head">Этот пользователь состоит в следующих группах:</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.indirect_member">(посредством группы: {0})</message>
+<message key="xmlui.administrative.eperson.EditEPersonForm.member_none">нет</message>
 
 	<!-- org.dspace.app.xmlui.administrative.eperson.DeleteEPeopleConfirm -->
-<message key="xmlui.administrative.eperson.DeleteEPeopleConfirm.title">Confirmar borrado de usuario</message>
-<message key="xmlui.administrative.eperson.DeleteEPeopleConfirm.trail">Confirmar borrado</message>
-<message key="xmlui.administrative.eperson.DeleteEPeopleConfirm.confirm_head">Confirmar borrado</message>
-<message key="xmlui.administrative.eperson.DeleteEPeopleConfirm.confirm_para">Los siguientes usuarios serán borrados:</message>
-<message key="xmlui.administrative.eperson.DeleteEPeopleConfirm.submit_confirm">Confirmar borrado</message>
+<message key="xmlui.administrative.eperson.DeleteEPeopleConfirm.title">Подтвердить удаление пользователя</message>
+<message key="xmlui.administrative.eperson.DeleteEPeopleConfirm.trail">Подтверить удаление</message>
+<message key="xmlui.administrative.eperson.DeleteEPeopleConfirm.confirm_head">Подтверить удаление</message>
+<message key="xmlui.administrative.eperson.DeleteEPeopleConfirm.confirm_para">Пользователи будут удалены:</message>
+<message key="xmlui.administrative.eperson.DeleteEPeopleConfirm.submit_confirm">Подтверить удаление</message>
 <message key="xmlui.administrative.eperson.DeleteEPeopleConfirm.head_id">ID</message>
-<message key="xmlui.administrative.eperson.DeleteEPeopleConfirm.head_name">Nombre</message>
-<message key="xmlui.administrative.eperson.DeleteEPeopleConfirm.head_email">Correo electrónico</message>
+<message key="xmlui.administrative.eperson.DeleteEPeopleConfirm.head_name">Имя</message>
+<message key="xmlui.administrative.eperson.DeleteEPeopleConfirm.head_email">Электронная почта</message>
 
 	<!-- general items for all of the group classes -->
 <message key="xmlui.administrative.group.general.group_trail">Управление группами</message>
@@ -1094,61 +1094,61 @@
 <message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.trail">Удаление схемы</message>
 <message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.head">Подтвердить удаление</message>
 <message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para1">Вы <b>действительно</b> уверены, что хотите удалить эту схему? Если существуют элементы, содержащие метаданные для полей из этой схемы, то схема не будет удалена и система предупредит Вас об шибке. Убедитесь, что данная схема не используется ни в одном из полей.</message>
-<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.warning">AVISO:</message>
-<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para2">Esto producirá un error si algún ítem contiene metadatos en cualquiera de los campos del esquema.</message>
+<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.warning">ВНИМАНИЕ:</message>
+<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.para2">Если какой-то из документов содержит метаданные в любом из полей схемы, возникнет ошибка.</message>
 <message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.column1">ID</message>
-<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.column2">Espacio de Nombres</message>
-<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.column3">Nombre</message>
+<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.column2">Пространство имен</message>
+<message key="xmlui.administrative.registries.DeleteMetadataSchemaConfirm.column3">Имя</message>
 
 	<!-- org.dspace.app.xmlui.administrative.registries.EditBitstreamFormat.java -->
-<message key="xmlui.administrative.registries.EditBitstreamFormat.title">Formato del archivo</message>
-<message key="xmlui.administrative.registries.EditBitstreamFormat.trail">Formato del archivo</message>
-<message key="xmlui.administrative.registries.EditBitstreamFormat.head1">Nuevo formato de archivo</message>
-<message key="xmlui.administrative.registries.EditBitstreamFormat.head2">Formato del archivo: {0}</message>
-<message key="xmlui.administrative.registries.EditBitstreamFormat.para1">Proporcione metadatos descriptivos sobre el formato del archivo indicado abajo. Mientras que los nombres de los formatos deben ser únicos, los MIME-Types no necesariamente. Debe mantener distintas entradas de formato para diferentes versiones de Microsoft Word, incluso aunque el MIME-Type sea el mismo para ellos.</message>
-<message key="xmlui.administrative.registries.EditBitstreamFormat.name">Nombre</message>
-<message key="xmlui.administrative.registries.EditBitstreamFormat.name_help">Un nombre único para este formato (p.ej. Microsoft Word XP o Microsoft Word 2000)</message>
-<message key="xmlui.administrative.registries.EditBitstreamFormat.name_error">El nombre del campo es necesario.</message>
-<message key="xmlui.administrative.registries.EditBitstreamFormat.mimetype">Tipo MIME</message>
-<message key="xmlui.administrative.registries.EditBitstreamFormat.mimetype_help">El MIME-type asociado a este formato no debe ser único.</message>
-<message key="xmlui.administrative.registries.EditBitstreamFormat.description">Descripción</message>
-<message key="xmlui.administrative.registries.EditBitstreamFormat.support">Nivel de soporte</message>
-<message key="xmlui.administrative.registries.EditBitstreamFormat.support_help">El nivel de soporte que su institución concede a este formato.</message>
-<message key="xmlui.administrative.registries.EditBitstreamFormat.support_0">Desconocido</message>
-<message key="xmlui.administrative.registries.EditBitstreamFormat.support_1">Conocido</message>
-<message key="xmlui.administrative.registries.EditBitstreamFormat.support_2">Compatible</message>
-<message key="xmlui.administrative.registries.EditBitstreamFormat.internal">Interno</message>
-<message key="xmlui.administrative.registries.EditBitstreamFormat.internal_help">Los formatos marcados como internos se ocultan al usuario y se utilizan para fines administrativos.</message>
-<message key="xmlui.administrative.registries.EditBitstreamFormat.extensions">Extensiones del fichero</message>
-<message key="xmlui.administrative.registries.EditBitstreamFormat.extensions_help">Las extensiones son extensiones de los archivos que se usan automáticamente para identificar los formatos de los archivos cargados. Puede indicar varias extensiones para cada formato.</message>
+<message key="xmlui.administrative.registries.EditBitstreamFormat.title">Формат архива</message>
+<message key="xmlui.administrative.registries.EditBitstreamFormat.trail">Формат архива</message>
+<message key="xmlui.administrative.registries.EditBitstreamFormat.head1">Новый формат архива</message>
+<message key="xmlui.administrative.registries.EditBitstreamFormat.head2">Формат архива: {0}</message>
+<message key="xmlui.administrative.registries.EditBitstreamFormat.para1">Предоставьте описательные метаданные для формата архива указанного ниже. Имена форматов должны быть уникальными, типы MIME не должны. У Вас может быть несколько разных форматов для разных версий Microsoft Word, а MIME тип может быть одним и тем же.</message>
+<message key="xmlui.administrative.registries.EditBitstreamFormat.name">Имя</message>
+<message key="xmlui.administrative.registries.EditBitstreamFormat.name_help">Уникальное имя для формата (например Microsoft Word XP или Microsoft Word 2000)</message>
+<message key="xmlui.administrative.registries.EditBitstreamFormat.name_error">Поле имя обязательное.</message>
+<message key="xmlui.administrative.registries.EditBitstreamFormat.mimetype">Тип MIME</message>
+<message key="xmlui.administrative.registries.EditBitstreamFormat.mimetype_help">MIME-тип, связанный с этим форматом, не должен быть уникальным.</message>
+<message key="xmlui.administrative.registries.EditBitstreamFormat.description">Описание</message>
+<message key="xmlui.administrative.registries.EditBitstreamFormat.support">Уровень поддержки</message>
+<message key="xmlui.administrative.registries.EditBitstreamFormat.support_help">Уровень поддержки, которая ваша организация предусматривает для данного формата.</message>
+<message key="xmlui.administrative.registries.EditBitstreamFormat.support_0">Неизвестный</message>
+<message key="xmlui.administrative.registries.EditBitstreamFormat.support_1">Известный</message>
+<message key="xmlui.administrative.registries.EditBitstreamFormat.support_2">Поддерживаемый</message>
+<message key="xmlui.administrative.registries.EditBitstreamFormat.internal">Внутренний</message>
+<message key="xmlui.administrative.registries.EditBitstreamFormat.internal_help">Внутренние форматы недоступны и используются для административных целей.</message>
+<message key="xmlui.administrative.registries.EditBitstreamFormat.extensions">Расширения файлов</message>
+<message key="xmlui.administrative.registries.EditBitstreamFormat.extensions_help">Расширения это расширения файлов, которые используются для автоматического определения типов загружаемых файлов. Вы можете указать несколько расширений для каждого формата.</message>
 
 	<!-- org.dspace.app.xmlui.administrative.registries.EditMetadataSchema.java -->
-<message key="xmlui.administrative.registries.EditMetadataSchema.title">Esquema de metadatos</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.trail">Esquema de metadatos</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.head1">Esquema de metadatos: "{0}"</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.para1">Este es el esquema de "{0}". Puede añadir o modificar campos de metadatos existentes de este esquema. Los campos también pueden ser marcados para borrado o movidos a otro esquema.</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.head2">Campos de metadatos del esquema</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.title">Схема метаданных</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.trail">Схема метаданных</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.head1">Схема метаданных: "{0}"</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.para1">Это схема "{0}". Вы можете добавить или изменить поля метаданных, которые уже существуют в этой схеме. Поля также могут быть помечены для удаления или перемещены в другую схему.</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.head2">Поля метаданных схемы</message>
 <message key="xmlui.administrative.registries.EditMetadataSchema.column1"></message>
 <message key="xmlui.administrative.registries.EditMetadataSchema.column2">ID</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.column3">Campo</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.column4">Nota de alcance</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.empty">Sin campos de metadatos</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.submit_delete">Borrar campos</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.submit_move">Mover campos a otro esquema</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.head3">Añadir un nuevo campo de metadato</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.name">Nombre del campo</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.note">Nota de alcance</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.note_help">Notas adicionales sobre este campo de metadato.</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.submit_add">Añadir un nuevo campo de metadato</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.head4">Modificar campo: {0}</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.submit_update">Modificar campo</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.error">Error</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.error_duplicate_field">El nombre del campo está ya en uso. Todos los elementos y cualificadores deben ser únicos.</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.error_element_empty">El elemento del campo es necesario.</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.error_element_badchar">El elemento del campo contiene un carácter extraño, el elemento NO puede contener: puntos, subrayados o espacios.</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.error_element_tolong">El elemento del campo es demasiado largo, debe ser menor de 32 caracteres.</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.error_qualifier_tolong">El cualificador del campo es demasiado largo, debe ser menor de 32 caracteres.</message>
-<message key="xmlui.administrative.registries.EditMetadataSchema.error_qualifier_badchar">El cualificador del campo contiene un carácter extraño, el cualificador NO puede contener: puntos, subrayados o espacios.</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.column3">Поле</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.column4">Заметка об области применимости</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.empty">Без полей метаданных</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.submit_delete">Удалить поля</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.submit_move">Переместить поля в другую схему</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.head3">Добавить новое поле метаданных</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.name">Название поля</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.note">Заметка об области применимости</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.note_help">Дополнительные данные об этом поле метаданных.</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.submit_add">Добавить новое поле метаданных</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.head4">Изменить поле: {0}</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.submit_update">Изменить поле</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.error">Ошибка</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.error_duplicate_field">Название поля уже используется. Все элементы и спецификаторы должны быть уникальны.</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.error_element_empty">Этот элемент поля обязателен.</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.error_element_badchar">Этот элемент поля содержит неправильный символ, элемент не может содержать точки, подчеркивания и пробелы.</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.error_element_tolong">Этот элемент поля слишком длинный, должен быть менее 32 символов.</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.error_qualifier_tolong">Спецификатор поля слишком длинный, он должен содержать не больше 32 символов.</message>
+<message key="xmlui.administrative.registries.EditMetadataSchema.error_qualifier_badchar">Спецификатор содержит неправильный символ, спецификатор не может содержать точки, подчеркивания и пробелы.</message>
 
 	<!-- org.dspace.app.xmlui.administrative.registries.FormatRegistryMain.java -->
 <message key="xmlui.administrative.registries.FormatRegistryMain.title">Registro de Formatos</message>
